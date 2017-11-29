@@ -1,0 +1,6 @@
+buildName=9412-4.3.7.next-build
+buildHash=666c888950068365d8a7d2ec64268aedb53d9b87
+buildTimestamp=2017-10-12T21:28:07+0000
+buildNumber=39306
+jobName=build-machine-agent
+version=4.3.7.1

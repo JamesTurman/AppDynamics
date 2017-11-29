@@ -1,0 +1,1398 @@
+[main] 16 Nov 2017 19:37:19,471  INFO FlexibleX509TrustManager - Using default keystore for SSL certificate validation.
+[main] 16 Nov 2017 19:37:19,734  INFO HostIdProvider - Default Host Identifier Resolver using host name for unique host identifier [ip-172-31-37-105]
+[ConfigExecutor-0] 16 Nov 2017 19:37:20,552  INFO SecondStageFeaturesListener - Dynamic monitoring feature is disabled in configuration, hence machine agent sends all metrics irrespective of the monitoring mode requested
+[system-thread-0] 16 Nov 2017 19:37:20,584  INFO SecondStageSystem - Starting main system with features Features(features=[basic], reason=Features.Reason(message=, code=))
+[system-thread-0] 16 Nov 2017 19:37:20,757  INFO SystemAgent - ####################################################################################
+[system-thread-0] 16 Nov 2017 19:37:20,757  INFO SystemAgent - Agent Install Directory [/home/ubuntu/machine-agent/machine]
+[system-thread-0] 16 Nov 2017 19:37:20,757  INFO SystemAgent - Using Agent Version [Machine Agent v4.3.7.1 GA Build Date 2017-10-12 14:29:18]
+[system-thread-0] 16 Nov 2017 19:37:20,757  INFO SystemAgent - JVM Runtime: 
+	java.home=/home/ubuntu/machine-agent/machine/jre
+	java.vm.vendor=Oracle Corporation
+	java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+	java.runtime.version=1.8.0_111-b14
+	java.io.tmpdir=/tmp
+	user.language=en
+	user.country=US
+	user.variant=
+	Default locale=en_US
+[system-thread-0] 16 Nov 2017 19:37:20,757  INFO SystemAgent - OS Runtime: 
+	os.name=Linux
+	os.arch=amd64
+	os.version=4.4.0-1039-aws
+	user.name=ubuntu
+	user.home=/home/ubuntu
+	user.dir=/home/ubuntu/machine-agent/machine
+[system-thread-0] 16 Nov 2017 19:37:20,759  INFO SystemAgent - JVM Args : -Dlog4j.configuration=file:/home/ubuntu/machine-agent/machine/conf/logging/log4j.xml | 
+[system-thread-0] 16 Nov 2017 19:37:20,759  INFO SystemAgent - JVM Runtime Name: 2689@ip-172-31-37-105
+[system-thread-0] 16 Nov 2017 19:37:20,759  INFO SystemAgent - JVM PID: 2689
+[system-thread-0] 16 Nov 2017 19:37:20,759  INFO SystemAgent - Machine Agent is resolving bootstrap info....
+[system-thread-0] 16 Nov 2017 19:37:20,851  INFO SystemAgent - Orchestration is disabled - disabling virtualization resolvers by default.
+[system-thread-0] 16 Nov 2017 19:37:20,853  INFO SystemAgent - Full Agent Registration Info Resolver found system property [appdynamics.agent.create.agent.info.if.missing] for appdynamics.agent.create.agent.info.if.missing [false]
+[system-thread-0] 16 Nov 2017 19:37:20,860  INFO SystemAgent - Default Host Identifier Resolver using host name for unique host identifier [ip-172-31-37-105]
+[system-thread-0] 16 Nov 2017 19:37:20,862  INFO SystemAgent - Default IP Address Resolver found IP addresses [[fe80:0:0:0:891:9bff:fee2:ee62%eth0, 172.31.37.105]]
+[system-thread-0] 16 Nov 2017 19:37:20,865  INFO SystemAgent - Full Agent Registration Info Resolver using selfService [false]
+[system-thread-0] 16 Nov 2017 19:37:20,865  INFO SystemAgent - Full Agent Registration Info Resolver using application name [null]
+[system-thread-0] 16 Nov 2017 19:37:20,865  INFO SystemAgent - Full Agent Registration Info Resolver using tier name [null]
+[system-thread-0] 16 Nov 2017 19:37:20,865  INFO SystemAgent - Full Agent Registration Info Resolver using node name [null]
+[system-thread-0] 16 Nov 2017 19:37:20,867  INFO SystemAgent - XML Controller Info Resolver found controller host [ciscoprod50.saas.appdynamics.com]
+[system-thread-0] 16 Nov 2017 19:37:20,867  INFO SystemAgent - XML Controller Info Resolver found controller port [443]
+[system-thread-0] 16 Nov 2017 19:37:20,870  INFO SystemAgent - XML Agent Account Info Resolver using account name [ciscoprod50]
+[system-thread-0] 16 Nov 2017 19:37:20,870  INFO SystemAgent - XML Agent Account Info Resolver using account access key [dde1e591d2a5]
+[system-thread-0] 16 Nov 2017 19:37:20,872  INFO SystemAgent - Keystore file /home/ubuntu/machine-agent/machine/conf/cacerts.jks was not found
+[system-thread-0] 16 Nov 2017 19:37:20,884  INFO SystemAgent - Machine Agent resolved bootstrap info!
+[system-thread-0] 16 Nov 2017 19:37:20,884  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[system-thread-0] 16 Nov 2017 19:37:20,891  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[system-thread-0] 16 Nov 2017 19:37:20,894  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 16 Nov 2017 19:37:20,895  INFO DefaultLegacyAgentRegistrationStateManager - Registered machine with machine ID [Optional.of(3027)]
+[ConfigExecutor-0] 16 Nov 2017 19:37:20,895  INFO DefaultLegacyAgentRegistrationStateManager - Scheduling System-Agent start...
+[system-thread-0] 16 Nov 2017 19:37:20,902  INFO SimAgentRepetitiveLoggingModule - The turnover time for the SIM agent repetitive logger is 5 minutes
+[system-thread-0] 16 Nov 2017 19:37:20,902  INFO SimAgentRepetitiveLoggingModule - The cache size for the SIM agent repetitive logger is 1000
+[system-thread-0] 16 Nov 2017 19:37:20,904  INFO DefaultLegacyAgentRegistrationStateManager - Starting machine agent...
+[system-thread-0] 16 Nov 2017 19:37:20,904  INFO SystemAgent - Starting Machine Agent....
+[system-thread-0] 16 Nov 2017 19:37:20,905  INFO ControllerTimeSkewHandler - Skew Handler is : [enabled].
+[system-thread-0] 16 Nov 2017 19:37:20,963  INFO SystemAgent - Full certificate chain validation performed using default certificate file
+[system-thread-0] 16 Nov 2017 19:37:21,020  INFO ManagedMonitorDelegate - Started Agent Metric Generation Service
+[system-thread-0] 16 Nov 2017 19:37:21,026  INFO ManagedMonitorDelegate - Event Service is : [enabled].
+[system-thread-0] 16 Nov 2017 19:37:21,039  INFO ManagedMonitorDelegate - Metric Service is : [enabled].
+[system-thread-0] 16 Nov 2017 19:37:21,047  INFO ManagedMonitorDelegate - Started Agent Env Properties Service
+[system-thread-0] 16 Nov 2017 19:37:21,051  INFO ManagedMonitorDelegate - Scheduled Continuous Task Monitor with frequency [30000]ms
+[system-thread-0] 16 Nov 2017 19:37:21,058  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/JavaHardwareMonitor/monitor.xml
+[system-thread-0] 16 Nov 2017 19:37:21,077  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 16 Nov 2017 19:37:21,078  INFO MonitorConfigReader - Overriding enabled tag. new value = false
+[system-thread-0] 16 Nov 2017 19:37:21,104  INFO NodeMonitorManager - Initializing managed monitor [JavaHardwareMonitor]
+[system-thread-0] 16 Nov 2017 19:37:21,104  INFO ManagedMonitorDelegate - Not initializing managed monitor [SigarHardwareMonitor] - Disabled in configuration file.
+[system-thread-0] 16 Nov 2017 19:37:21,104  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/analytics-agent/monitor.xml
+[system-thread-0] 16 Nov 2017 19:37:21,106  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 16 Nov 2017 19:37:21,106  INFO NodeMonitorManager - Initializing managed monitor [analytics-agent]
+[system-thread-0] 16 Nov 2017 19:37:21,106  INFO ManagedMonitorDelegate - Not initializing managed monitor [AppDynamics Analytics Agent] - Disabled in configuration file.
+[system-thread-0] 16 Nov 2017 19:37:21,106  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/HardwareMonitor/monitor.xml
+[system-thread-0] 16 Nov 2017 19:37:21,108  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 16 Nov 2017 19:37:21,109  INFO NodeMonitorManager - Initializing managed monitor [HardwareMonitor]
+[system-thread-0] 16 Nov 2017 19:37:21,109  INFO ManagedMonitorDelegate - Not initializing managed monitor [HardwareMonitor] - Disabled in configuration file.
+[system-thread-0] 16 Nov 2017 19:37:21,109  INFO NodeMonitorManager - Directory [/home/ubuntu/machine-agent/machine/monitors/unmanaged] not found, continuing.
+[system-thread-0] 16 Nov 2017 19:37:21,109  INFO AgentMonitorManager - Initialized System Monitor Manager with directory [/home/ubuntu/machine-agent/machine/monitors]
+[system-thread-0] 16 Nov 2017 19:37:21,109  INFO SystemAgent - Set up agent monitor manager
+[system-thread-0] 16 Nov 2017 19:37:21,110  INFO SystemAgent - Orchestration is disabled - disabling one-way agent transport. The agent will not be able to execute workflow tasks.
+[system-thread-0] 16 Nov 2017 19:37:21,113  INFO SystemAgentConfigManager - Scheduling configuration refresh at an interval of 60 seconds
+[system-thread-0] 16 Nov 2017 19:37:21,115  INFO SystemAgentConfigManager - Configuration refresh task interval is 60 seconds
+[system-thread-0] 16 Nov 2017 19:37:21,115  INFO SystemAgent - Configuration manager successfully configured
+[system-thread-0] 16 Nov 2017 19:37:21,117  INFO RunbookHandler - Runbook Operation Execution is : [enabled].
+[system-thread-0] 16 Nov 2017 19:37:21,117  INFO SystemAgent - Started AppDynamics Machine Agent Successfully.
+[ExtensionStarter-AgentServer] 16 Nov 2017 19:37:51,006  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-AgentServer] 16 Nov 2017 19:37:51,007  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-AgentServer] 16 Nov 2017 19:37:51,007  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-ServerMonitoring] 16 Nov 2017 19:37:51,436  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-ServerMonitoring] 16 Nov 2017 19:37:51,436  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-ServerMonitoring] 16 Nov 2017 19:37:51,436  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-DockerMonitoring] 16 Nov 2017 19:37:51,624  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-DockerMonitoring] 16 Nov 2017 19:37:51,624  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-DockerMonitoring] 16 Nov 2017 19:37:51,625  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-DockerMonitoring] 16 Nov 2017 19:37:51,640  INFO DockerMonitoringModule - Initializing Executor Service for Docker Metric Collection, pool size:  3
+[ExtensionStarter-DockerMonitoring] 16 Nov 2017 19:37:51,641  INFO DockerMonitor - Not starting docker monitoring extension because it is disabled.
+[ExtensionStarter-CrashGuard] 16 Nov 2017 19:37:51,670  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-CrashGuard] 16 Nov 2017 19:37:51,672  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-CrashGuard] 16 Nov 2017 19:37:51,673  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 16 Nov 2017 19:37:51,705  INFO CrashGuardRunner - Not starting crash guard extension because it is disabled.To enable, please update the configuration enabled in CrashGuardConfig.yml.
+[Thread-2] 16 Nov 2017 21:48:43,139  INFO SystemAgent - Stopping Machine Agent....
+[Thread-2] 16 Nov 2017 21:48:43,139  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 16 Nov 2017 21:48:43,139  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 16 Nov 2017 21:48:43,139  INFO SystemAgent - Shutting down agent monitor manager
+[Thread-2] 16 Nov 2017 21:48:43,139  INFO ManagedMonitorDelegate - shutdown metric generation service.
+[Thread-1] 16 Nov 2017 21:48:43,139  INFO SecondStageSystem - Stopping main system with features Features(features=[basic], reason=Features.Reason(message=, code=)).
+[Thread-2] 16 Nov 2017 21:48:43,140  INFO SystemAgent - Stopped agent monitor manager
+[Thread-2] 16 Nov 2017 21:48:43,141  INFO SystemAgent - Shutting down scheduler
+[Thread-2] 16 Nov 2017 21:48:43,141  INFO SystemAgent - Stopped scheduler
+[Thread-2] 16 Nov 2017 21:48:43,141  INFO SystemAgent - Shutting down monitor scheduler
+[Thread-2] 16 Nov 2017 21:48:43,141  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-AgentServer] 16 Nov 2017 21:48:43,144  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-AgentServer] 16 Nov 2017 21:48:43,144  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-AgentServer] 16 Nov 2017 21:48:43,144  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-AgentServer] 16 Nov 2017 21:48:43,144  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-ServerMonitoring] 16 Nov 2017 21:48:43,144  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-ServerMonitoring] 16 Nov 2017 21:48:43,144  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-ServerMonitoring] 16 Nov 2017 21:48:43,144  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-ServerMonitoring] 16 Nov 2017 21:48:43,144  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-DockerMonitoring] 16 Nov 2017 21:48:43,144  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-DockerMonitoring] 16 Nov 2017 21:48:43,144  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-DockerMonitoring] 16 Nov 2017 21:48:43,144  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-DockerMonitoring] 16 Nov 2017 21:48:43,144  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-CrashGuard] 16 Nov 2017 21:48:43,145  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-CrashGuard] 16 Nov 2017 21:48:43,145  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-CrashGuard] 16 Nov 2017 21:48:43,145  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-CrashGuard] 16 Nov 2017 21:48:43,145  INFO SystemAgent - Machine Agent Stopped!
+[Thread-1] 16 Nov 2017 21:48:43,145  INFO ManagedScheduledThreadPool - Shutting down extensions thread pool
+[Thread-1] 16 Nov 2017 21:48:43,146  INFO SystemAgent - Stopping Machine Agent....
+[Thread-1] 16 Nov 2017 21:48:43,146  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 16 Nov 2017 21:48:43,146  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 16 Nov 2017 21:48:43,146  INFO SystemAgent - Machine Agent Stopped!
+[main] 16 Nov 2017 21:56:53,246  INFO FlexibleX509TrustManager - Using default keystore for SSL certificate validation.
+[main] 16 Nov 2017 21:56:53,493  INFO HostIdProvider - Default Host Identifier Resolver using host name for unique host identifier [ip-172-31-37-105]
+[ConfigExecutor-0] 16 Nov 2017 21:56:54,092  INFO SecondStageFeaturesListener - Dynamic monitoring feature is disabled in configuration, hence machine agent sends all metrics irrespective of the monitoring mode requested
+[system-thread-0] 16 Nov 2017 21:56:54,122  INFO SecondStageSystem - Starting main system with features Features(features=[basic], reason=Features.Reason(message=, code=))
+[system-thread-0] 16 Nov 2017 21:56:54,347  INFO SystemAgent - ####################################################################################
+[system-thread-0] 16 Nov 2017 21:56:54,347  INFO SystemAgent - Agent Install Directory [/home/ubuntu/machine-agent/machine]
+[system-thread-0] 16 Nov 2017 21:56:54,347  INFO SystemAgent - Using Agent Version [Machine Agent v4.3.7.1 GA Build Date 2017-10-12 14:29:18]
+[system-thread-0] 16 Nov 2017 21:56:54,347  INFO SystemAgent - JVM Runtime: 
+	java.home=/home/ubuntu/machine-agent/machine/jre
+	java.vm.vendor=Oracle Corporation
+	java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+	java.runtime.version=1.8.0_111-b14
+	java.io.tmpdir=/tmp
+	user.language=en
+	user.country=US
+	user.variant=
+	Default locale=en_US
+[system-thread-0] 16 Nov 2017 21:56:54,347  INFO SystemAgent - OS Runtime: 
+	os.name=Linux
+	os.arch=amd64
+	os.version=4.4.0-1039-aws
+	user.name=ubuntu
+	user.home=/home/ubuntu
+	user.dir=/home/ubuntu/machine-agent/machine
+[system-thread-0] 16 Nov 2017 21:56:54,349  INFO SystemAgent - JVM Args : -Dlog4j.configuration=file:/home/ubuntu/machine-agent/machine/conf/logging/log4j.xml | 
+[system-thread-0] 16 Nov 2017 21:56:54,349  INFO SystemAgent - JVM Runtime Name: 13935@ip-172-31-37-105
+[system-thread-0] 16 Nov 2017 21:56:54,349  INFO SystemAgent - JVM PID: 13935
+[system-thread-0] 16 Nov 2017 21:56:54,349  INFO SystemAgent - Machine Agent is resolving bootstrap info....
+[system-thread-0] 16 Nov 2017 21:56:54,443  INFO SystemAgent - Orchestration is disabled - disabling virtualization resolvers by default.
+[system-thread-0] 16 Nov 2017 21:56:54,445  INFO SystemAgent - Full Agent Registration Info Resolver found system property [appdynamics.agent.create.agent.info.if.missing] for appdynamics.agent.create.agent.info.if.missing [false]
+[system-thread-0] 16 Nov 2017 21:56:54,452  INFO SystemAgent - Default Host Identifier Resolver using host name for unique host identifier [ip-172-31-37-105]
+[system-thread-0] 16 Nov 2017 21:56:54,454  INFO SystemAgent - Default IP Address Resolver found IP addresses [[fe80:0:0:0:891:9bff:fee2:ee62%eth0, 172.31.37.105]]
+[system-thread-0] 16 Nov 2017 21:56:54,457  INFO SystemAgent - Full Agent Registration Info Resolver using selfService [false]
+[system-thread-0] 16 Nov 2017 21:56:54,457  INFO SystemAgent - Full Agent Registration Info Resolver using application name [null]
+[system-thread-0] 16 Nov 2017 21:56:54,457  INFO SystemAgent - Full Agent Registration Info Resolver using tier name [null]
+[system-thread-0] 16 Nov 2017 21:56:54,457  INFO SystemAgent - Full Agent Registration Info Resolver using node name [null]
+[system-thread-0] 16 Nov 2017 21:56:54,459  INFO SystemAgent - XML Controller Info Resolver found controller host [ciscoprod50.saas.appdynamics.com]
+[system-thread-0] 16 Nov 2017 21:56:54,459  INFO SystemAgent - XML Controller Info Resolver found controller port [443]
+[system-thread-0] 16 Nov 2017 21:56:54,463  INFO SystemAgent - XML Agent Account Info Resolver using account name [ciscoprod50]
+[system-thread-0] 16 Nov 2017 21:56:54,463  INFO SystemAgent - XML Agent Account Info Resolver using account access key [dde1e591d2a5]
+[system-thread-0] 16 Nov 2017 21:56:54,464  INFO SystemAgent - Keystore file /home/ubuntu/machine-agent/machine/conf/cacerts.jks was not found
+[system-thread-0] 16 Nov 2017 21:56:54,476  INFO SystemAgent - Machine Agent resolved bootstrap info!
+[system-thread-0] 16 Nov 2017 21:56:54,476  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[system-thread-0] 16 Nov 2017 21:56:54,484  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[system-thread-0] 16 Nov 2017 21:56:54,486  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 16 Nov 2017 21:56:54,488  INFO DefaultLegacyAgentRegistrationStateManager - Registered machine with machine ID [Optional.of(3027)]
+[ConfigExecutor-0] 16 Nov 2017 21:56:54,488  INFO DefaultLegacyAgentRegistrationStateManager - Scheduling System-Agent start...
+[system-thread-0] 16 Nov 2017 21:56:54,496  INFO SimAgentRepetitiveLoggingModule - The turnover time for the SIM agent repetitive logger is 5 minutes
+[system-thread-0] 16 Nov 2017 21:56:54,496  INFO SimAgentRepetitiveLoggingModule - The cache size for the SIM agent repetitive logger is 1000
+[system-thread-0] 16 Nov 2017 21:56:54,498  INFO DefaultLegacyAgentRegistrationStateManager - Starting machine agent...
+[system-thread-0] 16 Nov 2017 21:56:54,498  INFO SystemAgent - Starting Machine Agent....
+[system-thread-0] 16 Nov 2017 21:56:54,499  INFO ControllerTimeSkewHandler - Skew Handler is : [enabled].
+[system-thread-0] 16 Nov 2017 21:56:54,555  INFO SystemAgent - Full certificate chain validation performed using default certificate file
+[system-thread-0] 16 Nov 2017 21:56:54,655  INFO ManagedMonitorDelegate - Started Agent Metric Generation Service
+[system-thread-0] 16 Nov 2017 21:56:54,667  INFO ManagedMonitorDelegate - Event Service is : [enabled].
+[system-thread-0] 16 Nov 2017 21:56:54,680  INFO ManagedMonitorDelegate - Metric Service is : [enabled].
+[system-thread-0] 16 Nov 2017 21:56:54,689  INFO ManagedMonitorDelegate - Started Agent Env Properties Service
+[system-thread-0] 16 Nov 2017 21:56:54,690  INFO ManagedMonitorDelegate - Scheduled Continuous Task Monitor with frequency [30000]ms
+[system-thread-0] 16 Nov 2017 21:56:54,697  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/JavaHardwareMonitor/monitor.xml
+[system-thread-0] 16 Nov 2017 21:56:54,731  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 16 Nov 2017 21:56:54,732  INFO MonitorConfigReader - Overriding enabled tag. new value = false
+[system-thread-0] 16 Nov 2017 21:56:54,737  INFO NodeMonitorManager - Initializing managed monitor [JavaHardwareMonitor]
+[system-thread-0] 16 Nov 2017 21:56:54,737  INFO ManagedMonitorDelegate - Not initializing managed monitor [SigarHardwareMonitor] - Disabled in configuration file.
+[system-thread-0] 16 Nov 2017 21:56:54,737  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/analytics-agent/monitor.xml
+[system-thread-0] 16 Nov 2017 21:56:54,742  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 16 Nov 2017 21:56:54,742  INFO NodeMonitorManager - Initializing managed monitor [analytics-agent]
+[system-thread-0] 16 Nov 2017 21:56:54,742  INFO ManagedMonitorDelegate - Not initializing managed monitor [AppDynamics Analytics Agent] - Disabled in configuration file.
+[system-thread-0] 16 Nov 2017 21:56:54,742  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/HardwareMonitor/monitor.xml
+[system-thread-0] 16 Nov 2017 21:56:54,744  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 16 Nov 2017 21:56:54,745  INFO NodeMonitorManager - Initializing managed monitor [HardwareMonitor]
+[system-thread-0] 16 Nov 2017 21:56:54,745  INFO ManagedMonitorDelegate - Not initializing managed monitor [HardwareMonitor] - Disabled in configuration file.
+[system-thread-0] 16 Nov 2017 21:56:54,745  INFO NodeMonitorManager - Directory [/home/ubuntu/machine-agent/machine/monitors/unmanaged] not found, continuing.
+[system-thread-0] 16 Nov 2017 21:56:54,745  INFO AgentMonitorManager - Initialized System Monitor Manager with directory [/home/ubuntu/machine-agent/machine/monitors]
+[system-thread-0] 16 Nov 2017 21:56:54,745  INFO SystemAgent - Set up agent monitor manager
+[system-thread-0] 16 Nov 2017 21:56:54,746  INFO SystemAgent - Orchestration is disabled - disabling one-way agent transport. The agent will not be able to execute workflow tasks.
+[system-thread-0] 16 Nov 2017 21:56:54,750  INFO SystemAgentConfigManager - Scheduling configuration refresh at an interval of 60 seconds
+[system-thread-0] 16 Nov 2017 21:56:54,751  INFO SystemAgentConfigManager - Configuration refresh task interval is 60 seconds
+[system-thread-0] 16 Nov 2017 21:56:54,751  INFO SystemAgent - Configuration manager successfully configured
+[system-thread-0] 16 Nov 2017 21:56:54,752  INFO RunbookHandler - Runbook Operation Execution is : [enabled].
+[system-thread-0] 16 Nov 2017 21:56:54,752  INFO SystemAgent - Started AppDynamics Machine Agent Successfully.
+[ExtensionStarter-AgentServer] 16 Nov 2017 21:57:24,598  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-AgentServer] 16 Nov 2017 21:57:24,598  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-AgentServer] 16 Nov 2017 21:57:24,599  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-ServerMonitoring] 16 Nov 2017 21:57:24,957  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-ServerMonitoring] 16 Nov 2017 21:57:24,957  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-ServerMonitoring] 16 Nov 2017 21:57:24,957  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-DockerMonitoring] 16 Nov 2017 21:57:25,148  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-DockerMonitoring] 16 Nov 2017 21:57:25,149  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-DockerMonitoring] 16 Nov 2017 21:57:25,149  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-DockerMonitoring] 16 Nov 2017 21:57:25,161  INFO DockerMonitoringModule - Initializing Executor Service for Docker Metric Collection, pool size:  3
+[ExtensionStarter-DockerMonitoring] 16 Nov 2017 21:57:25,161  INFO DockerMonitor - Not starting docker monitoring extension because it is disabled.
+[ExtensionStarter-CrashGuard] 16 Nov 2017 21:57:25,192  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-CrashGuard] 16 Nov 2017 21:57:25,194  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-CrashGuard] 16 Nov 2017 21:57:25,195  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 16 Nov 2017 21:57:25,229  INFO CrashGuardRunner - Not starting crash guard extension because it is disabled.To enable, please update the configuration enabled in CrashGuardConfig.yml.
+[Thread-1] 16 Nov 2017 21:59:13,979  INFO SecondStageSystem - Stopping main system with features Features(features=[basic], reason=Features.Reason(message=, code=)).
+[Thread-2] 16 Nov 2017 21:59:13,982  INFO SystemAgent - Stopping Machine Agent....
+[Thread-2] 16 Nov 2017 21:59:13,982  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 16 Nov 2017 21:59:13,982  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 16 Nov 2017 21:59:13,982  INFO SystemAgent - Shutting down agent monitor manager
+[Thread-2] 16 Nov 2017 21:59:13,982  INFO ManagedMonitorDelegate - shutdown metric generation service.
+[Thread-2] 16 Nov 2017 21:59:13,984  INFO SystemAgent - Stopped agent monitor manager
+[Thread-2] 16 Nov 2017 21:59:13,984  INFO SystemAgent - Shutting down scheduler
+[Thread-2] 16 Nov 2017 21:59:13,984  INFO SystemAgent - Stopped scheduler
+[Thread-2] 16 Nov 2017 21:59:13,984  INFO SystemAgent - Shutting down monitor scheduler
+[Thread-2] 16 Nov 2017 21:59:13,984  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-AgentServer] 16 Nov 2017 21:59:13,984  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-AgentServer] 16 Nov 2017 21:59:13,985  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-AgentServer] 16 Nov 2017 21:59:13,985  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-AgentServer] 16 Nov 2017 21:59:13,985  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-ServerMonitoring] 16 Nov 2017 21:59:13,986  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-ServerMonitoring] 16 Nov 2017 21:59:13,986  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-ServerMonitoring] 16 Nov 2017 21:59:13,986  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-ServerMonitoring] 16 Nov 2017 21:59:13,986  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-DockerMonitoring] 16 Nov 2017 21:59:13,986  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-DockerMonitoring] 16 Nov 2017 21:59:13,986  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-DockerMonitoring] 16 Nov 2017 21:59:13,986  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-DockerMonitoring] 16 Nov 2017 21:59:13,986  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-CrashGuard] 16 Nov 2017 21:59:13,986  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-CrashGuard] 16 Nov 2017 21:59:13,986  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-CrashGuard] 16 Nov 2017 21:59:13,986  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-CrashGuard] 16 Nov 2017 21:59:13,986  INFO SystemAgent - Machine Agent Stopped!
+[Thread-1] 16 Nov 2017 21:59:13,987  INFO ManagedScheduledThreadPool - Shutting down extensions thread pool
+[Thread-1] 16 Nov 2017 21:59:13,993  INFO SystemAgent - Stopping Machine Agent....
+[Thread-1] 16 Nov 2017 21:59:13,993  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 16 Nov 2017 21:59:13,993  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 16 Nov 2017 21:59:13,993  INFO SystemAgent - Machine Agent Stopped!
+[main] 16 Nov 2017 22:01:10,013  INFO FlexibleX509TrustManager - Using default keystore for SSL certificate validation.
+[main] 16 Nov 2017 22:01:10,410  INFO HostIdProvider - Default Host Identifier Resolver using host name for unique host identifier [ip-172-31-37-105]
+[ConfigExecutor-0] 16 Nov 2017 22:01:11,153  INFO SecondStageFeaturesListener - Dynamic monitoring feature is disabled in configuration, hence machine agent sends all metrics irrespective of the monitoring mode requested
+[system-thread-0] 16 Nov 2017 22:01:11,218  INFO SecondStageSystem - Starting main system with features Features(features=[basic], reason=Features.Reason(message=, code=))
+[system-thread-0] 16 Nov 2017 22:01:11,456  INFO SystemAgent - ####################################################################################
+[system-thread-0] 16 Nov 2017 22:01:11,456  INFO SystemAgent - Agent Install Directory [/home/ubuntu/machine-agent/machine]
+[system-thread-0] 16 Nov 2017 22:01:11,456  INFO SystemAgent - Using Agent Version [Machine Agent v4.3.7.1 GA Build Date 2017-10-12 14:29:18]
+[system-thread-0] 16 Nov 2017 22:01:11,456  INFO SystemAgent - JVM Runtime: 
+	java.home=/home/ubuntu/machine-agent/machine/jre
+	java.vm.vendor=Oracle Corporation
+	java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+	java.runtime.version=1.8.0_111-b14
+	java.io.tmpdir=/tmp
+	user.language=en
+	user.country=US
+	user.variant=
+	Default locale=en_US
+[system-thread-0] 16 Nov 2017 22:01:11,456  INFO SystemAgent - OS Runtime: 
+	os.name=Linux
+	os.arch=amd64
+	os.version=4.4.0-1039-aws
+	user.name=ubuntu
+	user.home=/home/ubuntu
+	user.dir=/home/ubuntu/machine-agent/machine
+[system-thread-0] 16 Nov 2017 22:01:11,465  INFO SystemAgent - JVM Args : -Dlog4j.configuration=file:/home/ubuntu/machine-agent/machine/conf/logging/log4j.xml | 
+[system-thread-0] 16 Nov 2017 22:01:11,465  INFO SystemAgent - JVM Runtime Name: 1717@ip-172-31-37-105
+[system-thread-0] 16 Nov 2017 22:01:11,465  INFO SystemAgent - JVM PID: 1717
+[system-thread-0] 16 Nov 2017 22:01:11,465  INFO SystemAgent - Machine Agent is resolving bootstrap info....
+[system-thread-0] 16 Nov 2017 22:01:11,580  INFO SystemAgent - Orchestration is disabled - disabling virtualization resolvers by default.
+[system-thread-0] 16 Nov 2017 22:01:11,583  INFO SystemAgent - Full Agent Registration Info Resolver found system property [appdynamics.agent.create.agent.info.if.missing] for appdynamics.agent.create.agent.info.if.missing [false]
+[system-thread-0] 16 Nov 2017 22:01:11,592  INFO SystemAgent - Default Host Identifier Resolver using host name for unique host identifier [ip-172-31-37-105]
+[system-thread-0] 16 Nov 2017 22:01:11,594  INFO SystemAgent - Default IP Address Resolver found IP addresses [[fe80:0:0:0:891:9bff:fee2:ee62%eth0, 172.31.37.105]]
+[system-thread-0] 16 Nov 2017 22:01:11,597  INFO SystemAgent - Full Agent Registration Info Resolver using selfService [false]
+[system-thread-0] 16 Nov 2017 22:01:11,597  INFO SystemAgent - Full Agent Registration Info Resolver using application name [null]
+[system-thread-0] 16 Nov 2017 22:01:11,597  INFO SystemAgent - Full Agent Registration Info Resolver using tier name [null]
+[system-thread-0] 16 Nov 2017 22:01:11,597  INFO SystemAgent - Full Agent Registration Info Resolver using node name [null]
+[system-thread-0] 16 Nov 2017 22:01:11,600  INFO SystemAgent - XML Controller Info Resolver found controller host [ciscoprod50.saas.appdynamics.com]
+[system-thread-0] 16 Nov 2017 22:01:11,600  INFO SystemAgent - XML Controller Info Resolver found controller port [443]
+[system-thread-0] 16 Nov 2017 22:01:11,603  INFO SystemAgent - XML Agent Account Info Resolver using account name [ciscoprod50]
+[system-thread-0] 16 Nov 2017 22:01:11,603  INFO SystemAgent - XML Agent Account Info Resolver using account access key [dde1e591d2a5]
+[system-thread-0] 16 Nov 2017 22:01:11,605  INFO SystemAgent - Keystore file /home/ubuntu/machine-agent/machine/conf/cacerts.jks was not found
+[system-thread-0] 16 Nov 2017 22:01:11,621  INFO SystemAgent - Machine Agent resolved bootstrap info!
+[system-thread-0] 16 Nov 2017 22:01:11,621  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[system-thread-0] 16 Nov 2017 22:01:11,630  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[system-thread-0] 16 Nov 2017 22:01:11,633  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 16 Nov 2017 22:01:11,635  INFO DefaultLegacyAgentRegistrationStateManager - Registered machine with machine ID [Optional.of(3027)]
+[ConfigExecutor-0] 16 Nov 2017 22:01:11,635  INFO DefaultLegacyAgentRegistrationStateManager - Scheduling System-Agent start...
+[system-thread-0] 16 Nov 2017 22:01:11,637  INFO SimAgentRepetitiveLoggingModule - The turnover time for the SIM agent repetitive logger is 5 minutes
+[system-thread-0] 16 Nov 2017 22:01:11,637  INFO SimAgentRepetitiveLoggingModule - The cache size for the SIM agent repetitive logger is 1000
+[system-thread-0] 16 Nov 2017 22:01:11,639  INFO DefaultLegacyAgentRegistrationStateManager - Starting machine agent...
+[system-thread-0] 16 Nov 2017 22:01:11,640  INFO SystemAgent - Starting Machine Agent....
+[system-thread-0] 16 Nov 2017 22:01:11,640  INFO ControllerTimeSkewHandler - Skew Handler is : [enabled].
+[system-thread-0] 16 Nov 2017 22:01:11,698  INFO SystemAgent - Full certificate chain validation performed using default certificate file
+[system-thread-0] 16 Nov 2017 22:01:11,749  INFO ManagedMonitorDelegate - Started Agent Metric Generation Service
+[system-thread-0] 16 Nov 2017 22:01:11,754  INFO ManagedMonitorDelegate - Event Service is : [enabled].
+[system-thread-0] 16 Nov 2017 22:01:11,766  INFO ManagedMonitorDelegate - Metric Service is : [enabled].
+[system-thread-0] 16 Nov 2017 22:01:11,777  INFO ManagedMonitorDelegate - Started Agent Env Properties Service
+[system-thread-0] 16 Nov 2017 22:01:11,784  INFO ManagedMonitorDelegate - Scheduled Continuous Task Monitor with frequency [30000]ms
+[system-thread-0] 16 Nov 2017 22:01:11,797  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/JavaHardwareMonitor/monitor.xml
+[system-thread-0] 16 Nov 2017 22:01:11,808  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 16 Nov 2017 22:01:11,810  INFO MonitorConfigReader - Overriding enabled tag. new value = false
+[system-thread-0] 16 Nov 2017 22:01:11,823  INFO NodeMonitorManager - Initializing managed monitor [JavaHardwareMonitor]
+[system-thread-0] 16 Nov 2017 22:01:11,823  INFO ManagedMonitorDelegate - Not initializing managed monitor [SigarHardwareMonitor] - Disabled in configuration file.
+[system-thread-0] 16 Nov 2017 22:01:11,826  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/analytics-agent/monitor.xml
+[system-thread-0] 16 Nov 2017 22:01:11,828  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 16 Nov 2017 22:01:11,828  INFO NodeMonitorManager - Initializing managed monitor [analytics-agent]
+[system-thread-0] 16 Nov 2017 22:01:11,829  INFO ManagedMonitorDelegate - Not initializing managed monitor [AppDynamics Analytics Agent] - Disabled in configuration file.
+[system-thread-0] 16 Nov 2017 22:01:11,832  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/HardwareMonitor/monitor.xml
+[system-thread-0] 16 Nov 2017 22:01:11,834  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 16 Nov 2017 22:01:11,835  INFO NodeMonitorManager - Initializing managed monitor [HardwareMonitor]
+[system-thread-0] 16 Nov 2017 22:01:11,835  INFO ManagedMonitorDelegate - Not initializing managed monitor [HardwareMonitor] - Disabled in configuration file.
+[system-thread-0] 16 Nov 2017 22:01:11,835  INFO NodeMonitorManager - Directory [/home/ubuntu/machine-agent/machine/monitors/unmanaged] not found, continuing.
+[system-thread-0] 16 Nov 2017 22:01:11,835  INFO AgentMonitorManager - Initialized System Monitor Manager with directory [/home/ubuntu/machine-agent/machine/monitors]
+[system-thread-0] 16 Nov 2017 22:01:11,835  INFO SystemAgent - Set up agent monitor manager
+[system-thread-0] 16 Nov 2017 22:01:11,838  INFO SystemAgent - Orchestration is disabled - disabling one-way agent transport. The agent will not be able to execute workflow tasks.
+[system-thread-0] 16 Nov 2017 22:01:11,842  INFO SystemAgentConfigManager - Scheduling configuration refresh at an interval of 60 seconds
+[system-thread-0] 16 Nov 2017 22:01:11,842  INFO SystemAgentConfigManager - Configuration refresh task interval is 60 seconds
+[system-thread-0] 16 Nov 2017 22:01:11,842  INFO SystemAgent - Configuration manager successfully configured
+[system-thread-0] 16 Nov 2017 22:01:11,844  INFO RunbookHandler - Runbook Operation Execution is : [enabled].
+[system-thread-0] 16 Nov 2017 22:01:11,844  INFO SystemAgent - Started AppDynamics Machine Agent Successfully.
+[ExtensionStarter-AgentServer] 16 Nov 2017 22:01:41,824  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-AgentServer] 16 Nov 2017 22:01:41,824  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-AgentServer] 16 Nov 2017 22:01:41,824  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-ServerMonitoring] 16 Nov 2017 22:01:42,373  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-ServerMonitoring] 16 Nov 2017 22:01:42,373  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-ServerMonitoring] 16 Nov 2017 22:01:42,373  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-DockerMonitoring] 16 Nov 2017 22:01:42,586  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-DockerMonitoring] 16 Nov 2017 22:01:42,586  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-DockerMonitoring] 16 Nov 2017 22:01:42,586  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-DockerMonitoring] 16 Nov 2017 22:01:42,593  INFO DockerMonitoringModule - Initializing Executor Service for Docker Metric Collection, pool size:  3
+[ExtensionStarter-DockerMonitoring] 16 Nov 2017 22:01:42,593  INFO DockerMonitor - Not starting docker monitoring extension because it is disabled.
+[ExtensionStarter-CrashGuard] 16 Nov 2017 22:01:42,622  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-CrashGuard] 16 Nov 2017 22:01:42,625  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-CrashGuard] 16 Nov 2017 22:01:42,625  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 16 Nov 2017 22:01:42,669  INFO CrashGuardRunner - Not starting crash guard extension because it is disabled.To enable, please update the configuration enabled in CrashGuardConfig.yml.
+[Thread-2] 17 Nov 2017 00:12:29,365  INFO SystemAgent - Stopping Machine Agent....
+[Thread-2] 17 Nov 2017 00:12:29,365  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 17 Nov 2017 00:12:29,365  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 17 Nov 2017 00:12:29,365  INFO SystemAgent - Shutting down agent monitor manager
+[Thread-2] 17 Nov 2017 00:12:29,365  INFO ManagedMonitorDelegate - shutdown metric generation service.
+[Thread-1] 17 Nov 2017 00:12:29,365  INFO SecondStageSystem - Stopping main system with features Features(features=[basic], reason=Features.Reason(message=, code=)).
+[Thread-2] 17 Nov 2017 00:12:29,365  INFO SystemAgent - Stopped agent monitor manager
+[Thread-2] 17 Nov 2017 00:12:29,366  INFO SystemAgent - Shutting down scheduler
+[Thread-2] 17 Nov 2017 00:12:29,366  INFO SystemAgent - Stopped scheduler
+[Thread-2] 17 Nov 2017 00:12:29,366  INFO SystemAgent - Shutting down monitor scheduler
+[Thread-2] 17 Nov 2017 00:12:29,367  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-AgentServer] 17 Nov 2017 00:12:29,373  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-AgentServer] 17 Nov 2017 00:12:29,373  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-AgentServer] 17 Nov 2017 00:12:29,373  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-AgentServer] 17 Nov 2017 00:12:29,373  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-ServerMonitoring] 17 Nov 2017 00:12:29,374  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-ServerMonitoring] 17 Nov 2017 00:12:29,374  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-ServerMonitoring] 17 Nov 2017 00:12:29,374  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-ServerMonitoring] 17 Nov 2017 00:12:29,374  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-DockerMonitoring] 17 Nov 2017 00:12:29,374  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-DockerMonitoring] 17 Nov 2017 00:12:29,374  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-DockerMonitoring] 17 Nov 2017 00:12:29,374  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-DockerMonitoring] 17 Nov 2017 00:12:29,374  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-CrashGuard] 17 Nov 2017 00:12:29,374  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-CrashGuard] 17 Nov 2017 00:12:29,374  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-CrashGuard] 17 Nov 2017 00:12:29,374  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-CrashGuard] 17 Nov 2017 00:12:29,374  INFO SystemAgent - Machine Agent Stopped!
+[Thread-1] 17 Nov 2017 00:12:29,374  INFO ManagedScheduledThreadPool - Shutting down extensions thread pool
+[Thread-1] 17 Nov 2017 00:12:29,375  INFO SystemAgent - Stopping Machine Agent....
+[Thread-1] 17 Nov 2017 00:12:29,375  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 17 Nov 2017 00:12:29,375  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 17 Nov 2017 00:12:29,375  INFO SystemAgent - Machine Agent Stopped!
+[main] 20 Nov 2017 16:41:54,120  INFO FlexibleX509TrustManager - Using default keystore for SSL certificate validation.
+[main] 20 Nov 2017 16:41:54,418  INFO HostIdProvider - Default Host Identifier Resolver using host name for unique host identifier [ip-172-31-37-105]
+[ConfigExecutor-0] 20 Nov 2017 16:41:55,439  INFO SecondStageFeaturesListener - Dynamic monitoring feature is disabled in configuration, hence machine agent sends all metrics irrespective of the monitoring mode requested
+[system-thread-0] 20 Nov 2017 16:41:55,482  INFO SecondStageSystem - Starting main system with features Features(features=[basic], reason=Features.Reason(message=, code=))
+[system-thread-0] 20 Nov 2017 16:41:55,676  INFO SystemAgent - ####################################################################################
+[system-thread-0] 20 Nov 2017 16:41:55,676  INFO SystemAgent - Agent Install Directory [/home/ubuntu/machine-agent/machine]
+[system-thread-0] 20 Nov 2017 16:41:55,676  INFO SystemAgent - Using Agent Version [Machine Agent v4.3.7.1 GA Build Date 2017-10-12 14:29:18]
+[system-thread-0] 20 Nov 2017 16:41:55,676  INFO SystemAgent - JVM Runtime: 
+	java.home=/home/ubuntu/machine-agent/machine/jre
+	java.vm.vendor=Oracle Corporation
+	java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+	java.runtime.version=1.8.0_111-b14
+	java.io.tmpdir=/tmp
+	user.language=en
+	user.country=US
+	user.variant=
+	Default locale=en_US
+[system-thread-0] 20 Nov 2017 16:41:55,676  INFO SystemAgent - OS Runtime: 
+	os.name=Linux
+	os.arch=amd64
+	os.version=4.4.0-1039-aws
+	user.name=ubuntu
+	user.home=/home/ubuntu
+	user.dir=/home/ubuntu/machine-agent/machine
+[system-thread-0] 20 Nov 2017 16:41:55,685  INFO SystemAgent - JVM Args : -Dlog4j.configuration=file:/home/ubuntu/machine-agent/machine/conf/logging/log4j.xml | 
+[system-thread-0] 20 Nov 2017 16:41:55,685  INFO SystemAgent - JVM Runtime Name: 1654@ip-172-31-37-105
+[system-thread-0] 20 Nov 2017 16:41:55,685  INFO SystemAgent - JVM PID: 1654
+[system-thread-0] 20 Nov 2017 16:41:55,685  INFO SystemAgent - Machine Agent is resolving bootstrap info....
+[system-thread-0] 20 Nov 2017 16:41:55,807  INFO SystemAgent - Orchestration is disabled - disabling virtualization resolvers by default.
+[system-thread-0] 20 Nov 2017 16:41:55,809  INFO SystemAgent - Full Agent Registration Info Resolver found system property [appdynamics.agent.create.agent.info.if.missing] for appdynamics.agent.create.agent.info.if.missing [false]
+[system-thread-0] 20 Nov 2017 16:41:55,819  INFO SystemAgent - Default Host Identifier Resolver using host name for unique host identifier [ip-172-31-37-105]
+[system-thread-0] 20 Nov 2017 16:41:55,821  INFO SystemAgent - Default IP Address Resolver found IP addresses [[fe80:0:0:0:891:9bff:fee2:ee62%eth0, 172.31.37.105]]
+[system-thread-0] 20 Nov 2017 16:41:55,823  INFO SystemAgent - Full Agent Registration Info Resolver using selfService [false]
+[system-thread-0] 20 Nov 2017 16:41:55,823  INFO SystemAgent - Full Agent Registration Info Resolver using application name [null]
+[system-thread-0] 20 Nov 2017 16:41:55,823  INFO SystemAgent - Full Agent Registration Info Resolver using tier name [null]
+[system-thread-0] 20 Nov 2017 16:41:55,824  INFO SystemAgent - Full Agent Registration Info Resolver using node name [null]
+[system-thread-0] 20 Nov 2017 16:41:55,826  INFO SystemAgent - XML Controller Info Resolver found controller host [ciscoprod50.saas.appdynamics.com]
+[system-thread-0] 20 Nov 2017 16:41:55,826  INFO SystemAgent - XML Controller Info Resolver found controller port [443]
+[system-thread-0] 20 Nov 2017 16:41:55,829  INFO SystemAgent - XML Agent Account Info Resolver using account name [ciscoprod50]
+[system-thread-0] 20 Nov 2017 16:41:55,829  INFO SystemAgent - XML Agent Account Info Resolver using account access key [dde1e591d2a5]
+[system-thread-0] 20 Nov 2017 16:41:55,832  INFO SystemAgent - Keystore file /home/ubuntu/machine-agent/machine/conf/cacerts.jks was not found
+[system-thread-0] 20 Nov 2017 16:41:55,851  INFO SystemAgent - Machine Agent resolved bootstrap info!
+[system-thread-0] 20 Nov 2017 16:41:55,851  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[system-thread-0] 20 Nov 2017 16:41:55,861  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[system-thread-0] 20 Nov 2017 16:41:55,864  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 20 Nov 2017 16:41:55,869  INFO DefaultLegacyAgentRegistrationStateManager - Registered machine with machine ID [Optional.of(3027)]
+[ConfigExecutor-0] 20 Nov 2017 16:41:55,870  INFO DefaultLegacyAgentRegistrationStateManager - Scheduling System-Agent start...
+[system-thread-0] 20 Nov 2017 16:41:55,874  INFO SimAgentRepetitiveLoggingModule - The turnover time for the SIM agent repetitive logger is 5 minutes
+[system-thread-0] 20 Nov 2017 16:41:55,874  INFO SimAgentRepetitiveLoggingModule - The cache size for the SIM agent repetitive logger is 1000
+[system-thread-0] 20 Nov 2017 16:41:55,877  INFO DefaultLegacyAgentRegistrationStateManager - Starting machine agent...
+[system-thread-0] 20 Nov 2017 16:41:55,877  INFO SystemAgent - Starting Machine Agent....
+[system-thread-0] 20 Nov 2017 16:41:55,878  INFO ControllerTimeSkewHandler - Skew Handler is : [enabled].
+[system-thread-0] 20 Nov 2017 16:41:56,105  INFO SystemAgent - Full certificate chain validation performed using default certificate file
+[system-thread-0] 20 Nov 2017 16:41:56,277  INFO ManagedMonitorDelegate - Started Agent Metric Generation Service
+[system-thread-0] 20 Nov 2017 16:41:56,284  INFO ManagedMonitorDelegate - Event Service is : [enabled].
+[system-thread-0] 20 Nov 2017 16:41:56,295  INFO ManagedMonitorDelegate - Metric Service is : [enabled].
+[system-thread-0] 20 Nov 2017 16:41:56,305  INFO ManagedMonitorDelegate - Started Agent Env Properties Service
+[system-thread-0] 20 Nov 2017 16:41:56,306  INFO ManagedMonitorDelegate - Scheduled Continuous Task Monitor with frequency [30000]ms
+[system-thread-0] 20 Nov 2017 16:41:56,316  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/JavaHardwareMonitor/monitor.xml
+[system-thread-0] 20 Nov 2017 16:41:56,331  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 20 Nov 2017 16:41:56,333  INFO MonitorConfigReader - Overriding enabled tag. new value = false
+[system-thread-0] 20 Nov 2017 16:41:56,337  INFO NodeMonitorManager - Initializing managed monitor [JavaHardwareMonitor]
+[system-thread-0] 20 Nov 2017 16:41:56,337  INFO ManagedMonitorDelegate - Not initializing managed monitor [SigarHardwareMonitor] - Disabled in configuration file.
+[system-thread-0] 20 Nov 2017 16:41:56,337  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/analytics-agent/monitor.xml
+[system-thread-0] 20 Nov 2017 16:41:56,340  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 20 Nov 2017 16:41:56,340  INFO NodeMonitorManager - Initializing managed monitor [analytics-agent]
+[system-thread-0] 20 Nov 2017 16:41:56,340  INFO ManagedMonitorDelegate - Not initializing managed monitor [AppDynamics Analytics Agent] - Disabled in configuration file.
+[system-thread-0] 20 Nov 2017 16:41:56,340  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/HardwareMonitor/monitor.xml
+[system-thread-0] 20 Nov 2017 16:41:56,342  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 20 Nov 2017 16:41:56,344  INFO NodeMonitorManager - Initializing managed monitor [HardwareMonitor]
+[system-thread-0] 20 Nov 2017 16:41:56,344  INFO ManagedMonitorDelegate - Not initializing managed monitor [HardwareMonitor] - Disabled in configuration file.
+[system-thread-0] 20 Nov 2017 16:41:56,344  INFO NodeMonitorManager - Directory [/home/ubuntu/machine-agent/machine/monitors/unmanaged] not found, continuing.
+[system-thread-0] 20 Nov 2017 16:41:56,344  INFO AgentMonitorManager - Initialized System Monitor Manager with directory [/home/ubuntu/machine-agent/machine/monitors]
+[system-thread-0] 20 Nov 2017 16:41:56,344  INFO SystemAgent - Set up agent monitor manager
+[system-thread-0] 20 Nov 2017 16:41:56,345  INFO SystemAgent - Orchestration is disabled - disabling one-way agent transport. The agent will not be able to execute workflow tasks.
+[system-thread-0] 20 Nov 2017 16:41:56,348  INFO SystemAgentConfigManager - Scheduling configuration refresh at an interval of 60 seconds
+[system-thread-0] 20 Nov 2017 16:41:56,349  INFO SystemAgentConfigManager - Configuration refresh task interval is 60 seconds
+[system-thread-0] 20 Nov 2017 16:41:56,349  INFO SystemAgent - Configuration manager successfully configured
+[system-thread-0] 20 Nov 2017 16:41:56,350  INFO RunbookHandler - Runbook Operation Execution is : [enabled].
+[system-thread-0] 20 Nov 2017 16:41:56,350  INFO SystemAgent - Started AppDynamics Machine Agent Successfully.
+[ExtensionStarter-AgentServer] 20 Nov 2017 16:42:26,027  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-AgentServer] 20 Nov 2017 16:42:26,027  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-AgentServer] 20 Nov 2017 16:42:26,027  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-ServerMonitoring] 20 Nov 2017 16:42:26,487  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-ServerMonitoring] 20 Nov 2017 16:42:26,487  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-ServerMonitoring] 20 Nov 2017 16:42:26,487  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 16:42:26,722  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 16:42:26,722  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 16:42:26,722  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 16:42:26,729  INFO DockerMonitoringModule - Initializing Executor Service for Docker Metric Collection, pool size:  3
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 16:42:26,730  INFO DockerMonitor - Not starting docker monitoring extension because it is disabled.
+[ExtensionStarter-CrashGuard] 20 Nov 2017 16:42:26,764  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-CrashGuard] 20 Nov 2017 16:42:26,766  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-CrashGuard] 20 Nov 2017 16:42:26,766  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 20 Nov 2017 16:42:26,809  INFO CrashGuardRunner - Not starting crash guard extension because it is disabled.To enable, please update the configuration enabled in CrashGuardConfig.yml.
+[Thread-1] 20 Nov 2017 18:53:13,607  INFO SecondStageSystem - Stopping main system with features Features(features=[basic], reason=Features.Reason(message=, code=)).
+[Thread-2] 20 Nov 2017 18:53:13,609  INFO SystemAgent - Stopping Machine Agent....
+[Thread-2] 20 Nov 2017 18:53:13,609  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 20 Nov 2017 18:53:13,609  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 20 Nov 2017 18:53:13,609  INFO SystemAgent - Shutting down agent monitor manager
+[Thread-2] 20 Nov 2017 18:53:13,609  INFO ManagedMonitorDelegate - shutdown metric generation service.
+[ExtensionStopper-AgentServer] 20 Nov 2017 18:53:13,610  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-AgentServer] 20 Nov 2017 18:53:13,611  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-AgentServer] 20 Nov 2017 18:53:13,611  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-AgentServer] 20 Nov 2017 18:53:13,611  INFO SystemAgent - Shutting down agent monitor manager
+[ExtensionStopper-AgentServer] 20 Nov 2017 18:53:13,611  INFO ManagedMonitorDelegate - shutdown metric generation service.
+[ExtensionStopper-AgentServer] 20 Nov 2017 18:53:13,611  INFO SystemAgent - Stopped agent monitor manager
+[Thread-2] 20 Nov 2017 18:53:13,611  INFO SystemAgent - Stopped agent monitor manager
+[Thread-2] 20 Nov 2017 18:53:13,611  INFO SystemAgent - Shutting down scheduler
+[ExtensionStopper-AgentServer] 20 Nov 2017 18:53:13,611  INFO SystemAgent - Shutting down scheduler
+[ExtensionStopper-AgentServer] 20 Nov 2017 18:53:13,611  INFO SystemAgent - Stopped scheduler
+[Thread-2] 20 Nov 2017 18:53:13,611  INFO SystemAgent - Stopped scheduler
+[Thread-2] 20 Nov 2017 18:53:13,611  INFO SystemAgent - Shutting down monitor scheduler
+[ExtensionStopper-AgentServer] 20 Nov 2017 18:53:13,611  INFO SystemAgent - Shutting down monitor scheduler
+[Thread-2] 20 Nov 2017 18:53:13,611  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-AgentServer] 20 Nov 2017 18:53:13,611  WARN SystemAgent - Failed to shut down monitor scheduler.
+java.lang.NullPointerException
+	at com.singularity.ee.agent.systemagent.Agent.stopMonitorScheduler(Agent.java:509)
+	at com.singularity.ee.agent.systemagent.Agent.stop(Agent.java:491)
+	at com.singularity.ee.agent.systemagent.SystemAgent.stop(SystemAgent.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.appdynamics.voltron.AppLifecycleModule.callAnnotatedMethods(AppLifecycleModule.java:211)
+	at com.appdynamics.voltron.AppLifecycleModule.stop(AppLifecycleModule.java:196)
+	at com.appdynamics.voltron.extensions.DefaultExtensionContext.stopExtensionInternal(DefaultExtensionContext.java:194)
+	at com.appdynamics.voltron.extensions.DefaultExtensionContext.access$300(DefaultExtensionContext.java:31)
+	at com.appdynamics.voltron.extensions.DefaultExtensionContext$2.run(DefaultExtensionContext.java:143)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[ExtensionStopper-AgentServer] 20 Nov 2017 18:53:13,614  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-ServerMonitoring] 20 Nov 2017 18:53:13,615  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-ServerMonitoring] 20 Nov 2017 18:53:13,615  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-ServerMonitoring] 20 Nov 2017 18:53:13,615  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-ServerMonitoring] 20 Nov 2017 18:53:13,616  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-DockerMonitoring] 20 Nov 2017 18:53:13,616  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-DockerMonitoring] 20 Nov 2017 18:53:13,616  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-DockerMonitoring] 20 Nov 2017 18:53:13,616  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-DockerMonitoring] 20 Nov 2017 18:53:13,616  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-CrashGuard] 20 Nov 2017 18:53:13,616  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-CrashGuard] 20 Nov 2017 18:53:13,616  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-CrashGuard] 20 Nov 2017 18:53:13,619  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-CrashGuard] 20 Nov 2017 18:53:13,619  INFO SystemAgent - Machine Agent Stopped!
+[Thread-1] 20 Nov 2017 18:53:13,619  INFO ManagedScheduledThreadPool - Shutting down extensions thread pool
+[Thread-1] 20 Nov 2017 18:53:13,619  INFO SystemAgent - Stopping Machine Agent....
+[Thread-1] 20 Nov 2017 18:53:13,620  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 20 Nov 2017 18:53:13,620  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 20 Nov 2017 18:53:13,620  INFO SystemAgent - Machine Agent Stopped!
+[main] 20 Nov 2017 19:35:12,366  INFO FlexibleX509TrustManager - Using default keystore for SSL certificate validation.
+[main] 20 Nov 2017 19:35:12,675  INFO HostIdProvider - Default Host Identifier Resolver using host name for unique host identifier [ip-172-31-37-105]
+[ConfigExecutor-0] 20 Nov 2017 19:35:13,402  INFO SecondStageFeaturesListener - Dynamic monitoring feature is disabled in configuration, hence machine agent sends all metrics irrespective of the monitoring mode requested
+[system-thread-0] 20 Nov 2017 19:35:13,434  INFO SecondStageSystem - Starting main system with features Features(features=[basic], reason=Features.Reason(message=, code=))
+[system-thread-0] 20 Nov 2017 19:35:13,667  INFO SystemAgent - ####################################################################################
+[system-thread-0] 20 Nov 2017 19:35:13,667  INFO SystemAgent - Agent Install Directory [/home/ubuntu/machine-agent/machine]
+[system-thread-0] 20 Nov 2017 19:35:13,667  INFO SystemAgent - Using Agent Version [Machine Agent v4.3.7.1 GA Build Date 2017-10-12 14:29:18]
+[system-thread-0] 20 Nov 2017 19:35:13,667  INFO SystemAgent - JVM Runtime: 
+	java.home=/home/ubuntu/machine-agent/machine/jre
+	java.vm.vendor=Oracle Corporation
+	java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+	java.runtime.version=1.8.0_111-b14
+	java.io.tmpdir=/tmp
+	user.language=en
+	user.country=US
+	user.variant=
+	Default locale=en_US
+[system-thread-0] 20 Nov 2017 19:35:13,667  INFO SystemAgent - OS Runtime: 
+	os.name=Linux
+	os.arch=amd64
+	os.version=4.4.0-1039-aws
+	user.name=ubuntu
+	user.home=/home/ubuntu
+	user.dir=/home/ubuntu/machine-agent/machine
+[system-thread-0] 20 Nov 2017 19:35:13,676  INFO SystemAgent - JVM Args : -Dlog4j.configuration=file:/home/ubuntu/machine-agent/machine/conf/logging/log4j.xml | 
+[system-thread-0] 20 Nov 2017 19:35:13,676  INFO SystemAgent - JVM Runtime Name: 1589@ip-172-31-37-105
+[system-thread-0] 20 Nov 2017 19:35:13,676  INFO SystemAgent - JVM PID: 1589
+[system-thread-0] 20 Nov 2017 19:35:13,676  INFO SystemAgent - Machine Agent is resolving bootstrap info....
+[system-thread-0] 20 Nov 2017 19:35:13,794  INFO SystemAgent - Orchestration is disabled - disabling virtualization resolvers by default.
+[system-thread-0] 20 Nov 2017 19:35:13,797  INFO SystemAgent - Full Agent Registration Info Resolver found system property [appdynamics.agent.create.agent.info.if.missing] for appdynamics.agent.create.agent.info.if.missing [false]
+[system-thread-0] 20 Nov 2017 19:35:13,806  INFO SystemAgent - Default Host Identifier Resolver using host name for unique host identifier [ip-172-31-37-105]
+[system-thread-0] 20 Nov 2017 19:35:13,808  INFO SystemAgent - Default IP Address Resolver found IP addresses [[fe80:0:0:0:891:9bff:fee2:ee62%eth0, 172.31.37.105]]
+[system-thread-0] 20 Nov 2017 19:35:13,810  INFO SystemAgent - Full Agent Registration Info Resolver using selfService [false]
+[system-thread-0] 20 Nov 2017 19:35:13,810  INFO SystemAgent - Full Agent Registration Info Resolver using application name [null]
+[system-thread-0] 20 Nov 2017 19:35:13,811  INFO SystemAgent - Full Agent Registration Info Resolver using tier name [null]
+[system-thread-0] 20 Nov 2017 19:35:13,811  INFO SystemAgent - Full Agent Registration Info Resolver using node name [null]
+[system-thread-0] 20 Nov 2017 19:35:13,813  INFO SystemAgent - XML Controller Info Resolver found controller host [ciscoprod50.saas.appdynamics.com]
+[system-thread-0] 20 Nov 2017 19:35:13,813  INFO SystemAgent - XML Controller Info Resolver found controller port [443]
+[system-thread-0] 20 Nov 2017 19:35:13,816  INFO SystemAgent - XML Agent Account Info Resolver using account name [ciscoprod50]
+[system-thread-0] 20 Nov 2017 19:35:13,816  INFO SystemAgent - XML Agent Account Info Resolver using account access key [dde1e591d2a5]
+[system-thread-0] 20 Nov 2017 19:35:13,818  INFO SystemAgent - Keystore file /home/ubuntu/machine-agent/machine/conf/cacerts.jks was not found
+[system-thread-0] 20 Nov 2017 19:35:13,834  INFO SystemAgent - Machine Agent resolved bootstrap info!
+[system-thread-0] 20 Nov 2017 19:35:13,834  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[system-thread-0] 20 Nov 2017 19:35:13,843  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[system-thread-0] 20 Nov 2017 19:35:13,847  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 20 Nov 2017 19:35:13,851  INFO DefaultLegacyAgentRegistrationStateManager - Registered machine with machine ID [Optional.of(3027)]
+[ConfigExecutor-0] 20 Nov 2017 19:35:13,851  INFO DefaultLegacyAgentRegistrationStateManager - Scheduling System-Agent start...
+[system-thread-0] 20 Nov 2017 19:35:13,854  INFO SimAgentRepetitiveLoggingModule - The turnover time for the SIM agent repetitive logger is 5 minutes
+[system-thread-0] 20 Nov 2017 19:35:13,855  INFO SimAgentRepetitiveLoggingModule - The cache size for the SIM agent repetitive logger is 1000
+[system-thread-0] 20 Nov 2017 19:35:13,856  INFO DefaultLegacyAgentRegistrationStateManager - Starting machine agent...
+[system-thread-0] 20 Nov 2017 19:35:13,856  INFO SystemAgent - Starting Machine Agent....
+[system-thread-0] 20 Nov 2017 19:35:13,857  INFO ControllerTimeSkewHandler - Skew Handler is : [enabled].
+[system-thread-0] 20 Nov 2017 19:35:13,949  INFO SystemAgent - Full certificate chain validation performed using default certificate file
+[system-thread-0] 20 Nov 2017 19:35:14,034  INFO ManagedMonitorDelegate - Started Agent Metric Generation Service
+[system-thread-0] 20 Nov 2017 19:35:14,039  INFO ManagedMonitorDelegate - Event Service is : [enabled].
+[system-thread-0] 20 Nov 2017 19:35:14,053  INFO ManagedMonitorDelegate - Metric Service is : [enabled].
+[system-thread-0] 20 Nov 2017 19:35:14,062  INFO ManagedMonitorDelegate - Started Agent Env Properties Service
+[system-thread-0] 20 Nov 2017 19:35:14,063  INFO ManagedMonitorDelegate - Scheduled Continuous Task Monitor with frequency [30000]ms
+[system-thread-0] 20 Nov 2017 19:35:14,073  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/JavaHardwareMonitor/monitor.xml
+[system-thread-0] 20 Nov 2017 19:35:14,115  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 20 Nov 2017 19:35:14,116  INFO MonitorConfigReader - Overriding enabled tag. new value = false
+[system-thread-0] 20 Nov 2017 19:35:14,120  INFO NodeMonitorManager - Initializing managed monitor [JavaHardwareMonitor]
+[system-thread-0] 20 Nov 2017 19:35:14,121  INFO ManagedMonitorDelegate - Not initializing managed monitor [SigarHardwareMonitor] - Disabled in configuration file.
+[system-thread-0] 20 Nov 2017 19:35:14,121  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/analytics-agent/monitor.xml
+[system-thread-0] 20 Nov 2017 19:35:14,129  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 20 Nov 2017 19:35:14,129  INFO NodeMonitorManager - Initializing managed monitor [analytics-agent]
+[system-thread-0] 20 Nov 2017 19:35:14,129  INFO ManagedMonitorDelegate - Not initializing managed monitor [AppDynamics Analytics Agent] - Disabled in configuration file.
+[system-thread-0] 20 Nov 2017 19:35:14,130  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/HardwareMonitor/monitor.xml
+[system-thread-0] 20 Nov 2017 19:35:14,133  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 20 Nov 2017 19:35:14,135  INFO NodeMonitorManager - Initializing managed monitor [HardwareMonitor]
+[system-thread-0] 20 Nov 2017 19:35:14,135  INFO ManagedMonitorDelegate - Not initializing managed monitor [HardwareMonitor] - Disabled in configuration file.
+[system-thread-0] 20 Nov 2017 19:35:14,135  INFO NodeMonitorManager - Directory [/home/ubuntu/machine-agent/machine/monitors/unmanaged] not found, continuing.
+[system-thread-0] 20 Nov 2017 19:35:14,135  INFO AgentMonitorManager - Initialized System Monitor Manager with directory [/home/ubuntu/machine-agent/machine/monitors]
+[system-thread-0] 20 Nov 2017 19:35:14,135  INFO SystemAgent - Set up agent monitor manager
+[system-thread-0] 20 Nov 2017 19:35:14,137  INFO SystemAgent - Orchestration is disabled - disabling one-way agent transport. The agent will not be able to execute workflow tasks.
+[system-thread-0] 20 Nov 2017 19:35:14,141  INFO SystemAgentConfigManager - Scheduling configuration refresh at an interval of 60 seconds
+[system-thread-0] 20 Nov 2017 19:35:14,141  INFO SystemAgentConfigManager - Configuration refresh task interval is 60 seconds
+[system-thread-0] 20 Nov 2017 19:35:14,141  INFO SystemAgent - Configuration manager successfully configured
+[system-thread-0] 20 Nov 2017 19:35:14,143  INFO RunbookHandler - Runbook Operation Execution is : [enabled].
+[system-thread-0] 20 Nov 2017 19:35:14,143  INFO SystemAgent - Started AppDynamics Machine Agent Successfully.
+[ExtensionStarter-AgentServer] 20 Nov 2017 19:35:44,002  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-AgentServer] 20 Nov 2017 19:35:44,002  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-AgentServer] 20 Nov 2017 19:35:44,002  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-ServerMonitoring] 20 Nov 2017 19:35:44,479  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-ServerMonitoring] 20 Nov 2017 19:35:44,479  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-ServerMonitoring] 20 Nov 2017 19:35:44,479  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 19:35:44,752  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 19:35:44,753  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 19:35:44,753  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 19:35:44,765  INFO DockerMonitoringModule - Initializing Executor Service for Docker Metric Collection, pool size:  3
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 19:35:44,765  INFO DockerMonitor - Not starting docker monitoring extension because it is disabled.
+[ExtensionStarter-CrashGuard] 20 Nov 2017 19:35:44,794  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-CrashGuard] 20 Nov 2017 19:35:44,796  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-CrashGuard] 20 Nov 2017 19:35:44,797  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 20 Nov 2017 19:35:44,838  INFO CrashGuardRunner - Not starting crash guard extension because it is disabled.To enable, please update the configuration enabled in CrashGuardConfig.yml.
+[Thread-2] 20 Nov 2017 19:41:36,443  INFO SystemAgent - Stopping Machine Agent....
+[Thread-2] 20 Nov 2017 19:41:36,443  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 20 Nov 2017 19:41:36,443  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 20 Nov 2017 19:41:36,443  INFO SystemAgent - Shutting down agent monitor manager
+[Thread-2] 20 Nov 2017 19:41:36,443  INFO ManagedMonitorDelegate - shutdown metric generation service.
+[Thread-2] 20 Nov 2017 19:41:36,443  INFO SystemAgent - Stopped agent monitor manager
+[Thread-2] 20 Nov 2017 19:41:36,444  INFO SystemAgent - Shutting down scheduler
+[Thread-2] 20 Nov 2017 19:41:36,444  INFO SystemAgent - Stopped scheduler
+[Thread-2] 20 Nov 2017 19:41:36,444  INFO SystemAgent - Shutting down monitor scheduler
+[Thread-2] 20 Nov 2017 19:41:36,444  INFO SystemAgent - Machine Agent Stopped!
+[Thread-1] 20 Nov 2017 19:41:36,445  INFO SecondStageSystem - Stopping main system with features Features(features=[basic], reason=Features.Reason(message=, code=)).
+[ExtensionStopper-AgentServer] 20 Nov 2017 19:41:36,447  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-AgentServer] 20 Nov 2017 19:41:36,447  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-AgentServer] 20 Nov 2017 19:41:36,447  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-AgentServer] 20 Nov 2017 19:41:36,447  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-ServerMonitoring] 20 Nov 2017 19:41:36,447  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-ServerMonitoring] 20 Nov 2017 19:41:36,447  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-ServerMonitoring] 20 Nov 2017 19:41:36,447  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-ServerMonitoring] 20 Nov 2017 19:41:36,447  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-DockerMonitoring] 20 Nov 2017 19:41:36,447  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-DockerMonitoring] 20 Nov 2017 19:41:36,447  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-DockerMonitoring] 20 Nov 2017 19:41:36,447  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-DockerMonitoring] 20 Nov 2017 19:41:36,447  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-CrashGuard] 20 Nov 2017 19:41:36,448  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-CrashGuard] 20 Nov 2017 19:41:36,448  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-CrashGuard] 20 Nov 2017 19:41:36,448  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-CrashGuard] 20 Nov 2017 19:41:36,448  INFO SystemAgent - Machine Agent Stopped!
+[Thread-1] 20 Nov 2017 19:41:36,449  INFO ManagedScheduledThreadPool - Shutting down extensions thread pool
+[Thread-1] 20 Nov 2017 19:41:36,450  INFO SystemAgent - Stopping Machine Agent....
+[Thread-1] 20 Nov 2017 19:41:36,450  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 20 Nov 2017 19:41:36,450  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 20 Nov 2017 19:41:36,450  INFO SystemAgent - Machine Agent Stopped!
+[main] 20 Nov 2017 19:42:23,807  INFO FlexibleX509TrustManager - Using default keystore for SSL certificate validation.
+[main] 20 Nov 2017 19:42:24,083  INFO HostIdProvider - Default Host Identifier Resolver using host name for unique host identifier [ip-172-31-37-105]
+[ConfigExecutor-0] 20 Nov 2017 19:42:24,696  INFO SecondStageFeaturesListener - Dynamic monitoring feature is disabled in configuration, hence machine agent sends all metrics irrespective of the monitoring mode requested
+[system-thread-0] 20 Nov 2017 19:42:24,726  INFO SecondStageSystem - Starting main system with features Features(features=[basic], reason=Features.Reason(message=, code=))
+[system-thread-0] 20 Nov 2017 19:42:24,892  INFO SystemAgent - ####################################################################################
+[system-thread-0] 20 Nov 2017 19:42:24,892  INFO SystemAgent - Agent Install Directory [/home/ubuntu/machine-agent/machine]
+[system-thread-0] 20 Nov 2017 19:42:24,892  INFO SystemAgent - Using Agent Version [Machine Agent v4.3.7.1 GA Build Date 2017-10-12 14:29:18]
+[system-thread-0] 20 Nov 2017 19:42:24,892  INFO SystemAgent - JVM Runtime: 
+	java.home=/home/ubuntu/machine-agent/machine/jre
+	java.vm.vendor=Oracle Corporation
+	java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+	java.runtime.version=1.8.0_111-b14
+	java.io.tmpdir=/tmp
+	user.language=en
+	user.country=US
+	user.variant=
+	Default locale=en_US
+[system-thread-0] 20 Nov 2017 19:42:24,892  INFO SystemAgent - OS Runtime: 
+	os.name=Linux
+	os.arch=amd64
+	os.version=4.4.0-1039-aws
+	user.name=ubuntu
+	user.home=/home/ubuntu
+	user.dir=/home/ubuntu/machine-agent/machine
+[system-thread-0] 20 Nov 2017 19:42:24,894  INFO SystemAgent - JVM Args : -Dlog4j.configuration=file:/home/ubuntu/machine-agent/machine/conf/logging/log4j.xml | 
+[system-thread-0] 20 Nov 2017 19:42:24,894  INFO SystemAgent - JVM Runtime Name: 3956@ip-172-31-37-105
+[system-thread-0] 20 Nov 2017 19:42:24,894  INFO SystemAgent - JVM PID: 3956
+[system-thread-0] 20 Nov 2017 19:42:24,894  INFO SystemAgent - Machine Agent is resolving bootstrap info....
+[system-thread-0] 20 Nov 2017 19:42:24,986  INFO SystemAgent - Orchestration is disabled - disabling virtualization resolvers by default.
+[system-thread-0] 20 Nov 2017 19:42:24,988  INFO SystemAgent - Full Agent Registration Info Resolver found system property [appdynamics.agent.create.agent.info.if.missing] for appdynamics.agent.create.agent.info.if.missing [false]
+[system-thread-0] 20 Nov 2017 19:42:24,995  INFO SystemAgent - Default Host Identifier Resolver using host name for unique host identifier [ip-172-31-37-105]
+[system-thread-0] 20 Nov 2017 19:42:24,997  INFO SystemAgent - Default IP Address Resolver found IP addresses [[fe80:0:0:0:891:9bff:fee2:ee62%eth0, 172.31.37.105]]
+[system-thread-0] 20 Nov 2017 19:42:25,000  INFO SystemAgent - Full Agent Registration Info Resolver using selfService [false]
+[system-thread-0] 20 Nov 2017 19:42:25,000  INFO SystemAgent - Full Agent Registration Info Resolver using application name [null]
+[system-thread-0] 20 Nov 2017 19:42:25,000  INFO SystemAgent - Full Agent Registration Info Resolver using tier name [null]
+[system-thread-0] 20 Nov 2017 19:42:25,000  INFO SystemAgent - Full Agent Registration Info Resolver using node name [null]
+[system-thread-0] 20 Nov 2017 19:42:25,002  INFO SystemAgent - XML Controller Info Resolver found controller host [ciscoprod50.saas.appdynamics.com]
+[system-thread-0] 20 Nov 2017 19:42:25,002  INFO SystemAgent - XML Controller Info Resolver found controller port [443]
+[system-thread-0] 20 Nov 2017 19:42:25,006  INFO SystemAgent - XML Agent Account Info Resolver using account name [ciscoprod50]
+[system-thread-0] 20 Nov 2017 19:42:25,006  INFO SystemAgent - XML Agent Account Info Resolver using account access key [dde1e591d2a5]
+[system-thread-0] 20 Nov 2017 19:42:25,007  INFO SystemAgent - Keystore file /home/ubuntu/machine-agent/machine/conf/cacerts.jks was not found
+[system-thread-0] 20 Nov 2017 19:42:25,019  INFO SystemAgent - Machine Agent resolved bootstrap info!
+[system-thread-0] 20 Nov 2017 19:42:25,019  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[system-thread-0] 20 Nov 2017 19:42:25,027  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[system-thread-0] 20 Nov 2017 19:42:25,029  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 20 Nov 2017 19:42:25,031  INFO DefaultLegacyAgentRegistrationStateManager - Registered machine with machine ID [Optional.of(3027)]
+[ConfigExecutor-0] 20 Nov 2017 19:42:25,031  INFO DefaultLegacyAgentRegistrationStateManager - Scheduling System-Agent start...
+[system-thread-0] 20 Nov 2017 19:42:25,038  INFO SimAgentRepetitiveLoggingModule - The turnover time for the SIM agent repetitive logger is 5 minutes
+[system-thread-0] 20 Nov 2017 19:42:25,038  INFO SimAgentRepetitiveLoggingModule - The cache size for the SIM agent repetitive logger is 1000
+[system-thread-0] 20 Nov 2017 19:42:25,041  INFO DefaultLegacyAgentRegistrationStateManager - Starting machine agent...
+[system-thread-0] 20 Nov 2017 19:42:25,041  INFO SystemAgent - Starting Machine Agent....
+[system-thread-0] 20 Nov 2017 19:42:25,042  INFO ControllerTimeSkewHandler - Skew Handler is : [enabled].
+[system-thread-0] 20 Nov 2017 19:42:25,098  INFO SystemAgent - Full certificate chain validation performed using default certificate file
+[system-thread-0] 20 Nov 2017 19:42:25,164  INFO ManagedMonitorDelegate - Started Agent Metric Generation Service
+[system-thread-0] 20 Nov 2017 19:42:25,169  INFO ManagedMonitorDelegate - Event Service is : [enabled].
+[system-thread-0] 20 Nov 2017 19:42:25,180  INFO ManagedMonitorDelegate - Metric Service is : [enabled].
+[system-thread-0] 20 Nov 2017 19:42:25,188  INFO ManagedMonitorDelegate - Started Agent Env Properties Service
+[system-thread-0] 20 Nov 2017 19:42:25,190  INFO ManagedMonitorDelegate - Scheduled Continuous Task Monitor with frequency [30000]ms
+[system-thread-0] 20 Nov 2017 19:42:25,207  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/JavaHardwareMonitor/monitor.xml
+[system-thread-0] 20 Nov 2017 19:42:25,223  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 20 Nov 2017 19:42:25,224  INFO MonitorConfigReader - Overriding enabled tag. new value = false
+[system-thread-0] 20 Nov 2017 19:42:25,228  INFO NodeMonitorManager - Initializing managed monitor [JavaHardwareMonitor]
+[system-thread-0] 20 Nov 2017 19:42:25,228  INFO ManagedMonitorDelegate - Not initializing managed monitor [SigarHardwareMonitor] - Disabled in configuration file.
+[system-thread-0] 20 Nov 2017 19:42:25,228  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/analytics-agent/monitor.xml
+[system-thread-0] 20 Nov 2017 19:42:25,230  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 20 Nov 2017 19:42:25,230  INFO NodeMonitorManager - Initializing managed monitor [analytics-agent]
+[system-thread-0] 20 Nov 2017 19:42:25,230  INFO ManagedMonitorDelegate - Not initializing managed monitor [AppDynamics Analytics Agent] - Disabled in configuration file.
+[system-thread-0] 20 Nov 2017 19:42:25,230  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/HardwareMonitor/monitor.xml
+[system-thread-0] 20 Nov 2017 19:42:25,239  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 20 Nov 2017 19:42:25,240  INFO NodeMonitorManager - Initializing managed monitor [HardwareMonitor]
+[system-thread-0] 20 Nov 2017 19:42:25,241  INFO ManagedMonitorDelegate - Not initializing managed monitor [HardwareMonitor] - Disabled in configuration file.
+[system-thread-0] 20 Nov 2017 19:42:25,241  INFO NodeMonitorManager - Directory [/home/ubuntu/machine-agent/machine/monitors/unmanaged] not found, continuing.
+[system-thread-0] 20 Nov 2017 19:42:25,241  INFO AgentMonitorManager - Initialized System Monitor Manager with directory [/home/ubuntu/machine-agent/machine/monitors]
+[system-thread-0] 20 Nov 2017 19:42:25,241  INFO SystemAgent - Set up agent monitor manager
+[system-thread-0] 20 Nov 2017 19:42:25,241  INFO SystemAgent - Orchestration is disabled - disabling one-way agent transport. The agent will not be able to execute workflow tasks.
+[system-thread-0] 20 Nov 2017 19:42:25,248  INFO SystemAgentConfigManager - Scheduling configuration refresh at an interval of 60 seconds
+[system-thread-0] 20 Nov 2017 19:42:25,249  INFO SystemAgentConfigManager - Configuration refresh task interval is 60 seconds
+[system-thread-0] 20 Nov 2017 19:42:25,249  INFO SystemAgent - Configuration manager successfully configured
+[system-thread-0] 20 Nov 2017 19:42:25,250  INFO RunbookHandler - Runbook Operation Execution is : [enabled].
+[system-thread-0] 20 Nov 2017 19:42:25,250  INFO SystemAgent - Started AppDynamics Machine Agent Successfully.
+[Thread-1] 20 Nov 2017 19:42:34,316  INFO SecondStageSystem - Stopping main system with features Features(features=[basic], reason=Features.Reason(message=, code=)).
+[Thread-1] 20 Nov 2017 19:42:34,316  INFO ManagedScheduledThreadPool - Shutting down extensions thread pool
+[Thread-1] 20 Nov 2017 19:42:34,316  INFO SystemAgent - Stopping Machine Agent....
+[Thread-1] 20 Nov 2017 19:42:34,316  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 20 Nov 2017 19:42:34,317  INFO SystemAgent - Stopping Machine Agent....
+[Thread-2] 20 Nov 2017 19:42:34,317  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 20 Nov 2017 19:42:34,317  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 20 Nov 2017 19:42:34,318  INFO SystemAgent - Shutting down agent monitor manager
+[Thread-1] 20 Nov 2017 19:42:34,318  INFO ManagedMonitorDelegate - shutdown metric generation service.
+[Thread-1] 20 Nov 2017 19:42:34,318  INFO SystemAgent - Stopped agent monitor manager
+[Thread-1] 20 Nov 2017 19:42:34,318  INFO SystemAgent - Shutting down scheduler
+[Thread-1] 20 Nov 2017 19:42:34,318  INFO SystemAgent - Stopped scheduler
+[Thread-1] 20 Nov 2017 19:42:34,319  INFO SystemAgent - Shutting down monitor scheduler
+[Thread-1] 20 Nov 2017 19:42:34,319  INFO SystemAgent - Machine Agent Stopped!
+[Thread-2] 20 Nov 2017 19:42:34,318  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 20 Nov 2017 19:42:34,319  INFO SystemAgent - Machine Agent Stopped!
+[main] 20 Nov 2017 19:44:59,070  INFO FlexibleX509TrustManager - Using default keystore for SSL certificate validation.
+[main] 20 Nov 2017 19:45:15,653  INFO HostIdProvider - Default Host Identifier Resolver using host name for unique host identifier [ip-172-31-37-105]
+[ConfigExecutor-0] 20 Nov 2017 19:45:16,358  INFO SecondStageFeaturesListener - Dynamic monitoring feature is disabled in configuration, hence machine agent sends all metrics irrespective of the monitoring mode requested
+[system-thread-0] 20 Nov 2017 19:45:16,388  INFO SecondStageSystem - Starting main system with features Features(features=[basic], reason=Features.Reason(message=, code=))
+[system-thread-0] 20 Nov 2017 19:45:16,541  INFO SystemAgent - ####################################################################################
+[system-thread-0] 20 Nov 2017 19:45:16,541  INFO SystemAgent - Agent Install Directory [/home/ubuntu/machine-agent/machine]
+[system-thread-0] 20 Nov 2017 19:45:16,541  INFO SystemAgent - Using Agent Version [Machine Agent v4.3.7.1 GA Build Date 2017-10-12 14:29:18]
+[system-thread-0] 20 Nov 2017 19:45:16,541  INFO SystemAgent - JVM Runtime: 
+	java.home=/home/ubuntu/machine-agent/machine/jre
+	java.vm.vendor=Oracle Corporation
+	java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+	java.runtime.version=1.8.0_111-b14
+	java.io.tmpdir=/tmp
+	user.language=en
+	user.country=US
+	user.variant=
+	Default locale=en_US
+[system-thread-0] 20 Nov 2017 19:45:16,541  INFO SystemAgent - OS Runtime: 
+	os.name=Linux
+	os.arch=amd64
+	os.version=4.4.0-1039-aws
+	user.name=ubuntu
+	user.home=/home/ubuntu
+	user.dir=/home/ubuntu/machine-agent/machine
+[system-thread-0] 20 Nov 2017 19:45:16,547  INFO SystemAgent - JVM Args : -Dlog4j.configuration=file:/home/ubuntu/machine-agent/machine/conf/logging/log4j.xml | 
+[system-thread-0] 20 Nov 2017 19:45:16,547  INFO SystemAgent - JVM Runtime Name: 4043@ip-172-31-37-105
+[system-thread-0] 20 Nov 2017 19:45:16,547  INFO SystemAgent - JVM PID: 4043
+[system-thread-0] 20 Nov 2017 19:45:16,547  INFO SystemAgent - Machine Agent is resolving bootstrap info....
+[system-thread-0] 20 Nov 2017 19:45:16,639  INFO SystemAgent - Orchestration is disabled - disabling virtualization resolvers by default.
+[system-thread-0] 20 Nov 2017 19:45:16,641  INFO SystemAgent - Full Agent Registration Info Resolver found system property [appdynamics.agent.create.agent.info.if.missing] for appdynamics.agent.create.agent.info.if.missing [false]
+[system-thread-0] 20 Nov 2017 19:45:16,648  INFO SystemAgent - Default Host Identifier Resolver using host name for unique host identifier [ip-172-31-37-105]
+[system-thread-0] 20 Nov 2017 19:45:16,650  INFO SystemAgent - Default IP Address Resolver found IP addresses [[fe80:0:0:0:891:9bff:fee2:ee62%eth0, 172.31.37.105]]
+[system-thread-0] 20 Nov 2017 19:45:16,653  INFO SystemAgent - Full Agent Registration Info Resolver using selfService [false]
+[system-thread-0] 20 Nov 2017 19:45:16,653  INFO SystemAgent - Full Agent Registration Info Resolver using application name [null]
+[system-thread-0] 20 Nov 2017 19:45:16,653  INFO SystemAgent - Full Agent Registration Info Resolver using tier name [null]
+[system-thread-0] 20 Nov 2017 19:45:16,653  INFO SystemAgent - Full Agent Registration Info Resolver using node name [null]
+[system-thread-0] 20 Nov 2017 19:45:16,655  INFO SystemAgent - XML Controller Info Resolver found controller host [ciscoprod50.saas.appdynamics.com]
+[system-thread-0] 20 Nov 2017 19:45:16,655  INFO SystemAgent - XML Controller Info Resolver found controller port [443]
+[system-thread-0] 20 Nov 2017 19:45:16,658  INFO SystemAgent - XML Agent Account Info Resolver using account name [ciscoprod50]
+[system-thread-0] 20 Nov 2017 19:45:16,659  INFO SystemAgent - XML Agent Account Info Resolver using account access key [dde1e591d2a5]
+[system-thread-0] 20 Nov 2017 19:45:16,660  INFO SystemAgent - Keystore file /home/ubuntu/machine-agent/machine/conf/cacerts.jks was not found
+[system-thread-0] 20 Nov 2017 19:45:16,672  INFO SystemAgent - Machine Agent resolved bootstrap info!
+[system-thread-0] 20 Nov 2017 19:45:16,673  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[system-thread-0] 20 Nov 2017 19:45:16,680  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[system-thread-0] 20 Nov 2017 19:45:16,683  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 20 Nov 2017 19:45:16,684  INFO DefaultLegacyAgentRegistrationStateManager - Registered machine with machine ID [Optional.of(3027)]
+[ConfigExecutor-0] 20 Nov 2017 19:45:16,685  INFO DefaultLegacyAgentRegistrationStateManager - Scheduling System-Agent start...
+[system-thread-0] 20 Nov 2017 19:45:16,692  INFO SimAgentRepetitiveLoggingModule - The turnover time for the SIM agent repetitive logger is 5 minutes
+[system-thread-0] 20 Nov 2017 19:45:16,692  INFO SimAgentRepetitiveLoggingModule - The cache size for the SIM agent repetitive logger is 1000
+[system-thread-0] 20 Nov 2017 19:45:16,695  INFO DefaultLegacyAgentRegistrationStateManager - Starting machine agent...
+[system-thread-0] 20 Nov 2017 19:45:16,695  INFO SystemAgent - Starting Machine Agent....
+[system-thread-0] 20 Nov 2017 19:45:16,696  INFO ControllerTimeSkewHandler - Skew Handler is : [enabled].
+[system-thread-0] 20 Nov 2017 19:45:16,755  INFO SystemAgent - Full certificate chain validation performed using default certificate file
+[system-thread-0] 20 Nov 2017 19:45:16,839  INFO ManagedMonitorDelegate - Started Agent Metric Generation Service
+[system-thread-0] 20 Nov 2017 19:45:16,843  INFO ManagedMonitorDelegate - Event Service is : [enabled].
+[system-thread-0] 20 Nov 2017 19:45:16,855  INFO ManagedMonitorDelegate - Metric Service is : [enabled].
+[system-thread-0] 20 Nov 2017 19:45:16,864  INFO ManagedMonitorDelegate - Started Agent Env Properties Service
+[system-thread-0] 20 Nov 2017 19:45:16,865  INFO ManagedMonitorDelegate - Scheduled Continuous Task Monitor with frequency [30000]ms
+[system-thread-0] 20 Nov 2017 19:45:16,871  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/JavaHardwareMonitor/monitor.xml
+[system-thread-0] 20 Nov 2017 19:45:16,882  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 20 Nov 2017 19:45:16,883  INFO MonitorConfigReader - Overriding enabled tag. new value = false
+[system-thread-0] 20 Nov 2017 19:45:16,902  INFO NodeMonitorManager - Initializing managed monitor [JavaHardwareMonitor]
+[system-thread-0] 20 Nov 2017 19:45:16,902  INFO ManagedMonitorDelegate - Not initializing managed monitor [SigarHardwareMonitor] - Disabled in configuration file.
+[system-thread-0] 20 Nov 2017 19:45:16,902  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/analytics-agent/monitor.xml
+[system-thread-0] 20 Nov 2017 19:45:16,911  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 20 Nov 2017 19:45:16,911  INFO NodeMonitorManager - Initializing managed monitor [analytics-agent]
+[system-thread-0] 20 Nov 2017 19:45:16,911  INFO ManagedMonitorDelegate - Not initializing managed monitor [AppDynamics Analytics Agent] - Disabled in configuration file.
+[system-thread-0] 20 Nov 2017 19:45:16,911  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/HardwareMonitor/monitor.xml
+[system-thread-0] 20 Nov 2017 19:45:16,914  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 20 Nov 2017 19:45:16,919  INFO NodeMonitorManager - Initializing managed monitor [HardwareMonitor]
+[system-thread-0] 20 Nov 2017 19:45:16,919  INFO ManagedMonitorDelegate - Not initializing managed monitor [HardwareMonitor] - Disabled in configuration file.
+[system-thread-0] 20 Nov 2017 19:45:16,919  INFO NodeMonitorManager - Directory [/home/ubuntu/machine-agent/machine/monitors/unmanaged] not found, continuing.
+[system-thread-0] 20 Nov 2017 19:45:16,919  INFO AgentMonitorManager - Initialized System Monitor Manager with directory [/home/ubuntu/machine-agent/machine/monitors]
+[system-thread-0] 20 Nov 2017 19:45:16,919  INFO SystemAgent - Set up agent monitor manager
+[system-thread-0] 20 Nov 2017 19:45:16,920  INFO SystemAgent - Orchestration is disabled - disabling one-way agent transport. The agent will not be able to execute workflow tasks.
+[system-thread-0] 20 Nov 2017 19:45:16,923  INFO SystemAgentConfigManager - Scheduling configuration refresh at an interval of 60 seconds
+[system-thread-0] 20 Nov 2017 19:45:16,924  INFO SystemAgentConfigManager - Configuration refresh task interval is 60 seconds
+[system-thread-0] 20 Nov 2017 19:45:16,924  INFO SystemAgent - Configuration manager successfully configured
+[system-thread-0] 20 Nov 2017 19:45:16,925  INFO RunbookHandler - Runbook Operation Execution is : [enabled].
+[system-thread-0] 20 Nov 2017 19:45:16,925  INFO SystemAgent - Started AppDynamics Machine Agent Successfully.
+[ExtensionStarter-AgentServer] 20 Nov 2017 19:45:46,816  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-AgentServer] 20 Nov 2017 19:45:46,816  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-AgentServer] 20 Nov 2017 19:45:46,817  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-ServerMonitoring] 20 Nov 2017 19:45:47,190  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-ServerMonitoring] 20 Nov 2017 19:45:47,190  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-ServerMonitoring] 20 Nov 2017 19:45:47,190  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 19:45:47,438  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 19:45:47,438  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 19:45:47,438  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 19:45:47,453  INFO DockerMonitoringModule - Initializing Executor Service for Docker Metric Collection, pool size:  3
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 19:45:47,453  INFO DockerMonitor - Not starting docker monitoring extension because it is disabled.
+[ExtensionStarter-CrashGuard] 20 Nov 2017 19:45:47,477  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-CrashGuard] 20 Nov 2017 19:45:47,477  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-CrashGuard] 20 Nov 2017 19:45:47,477  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 20 Nov 2017 19:45:47,504  INFO CrashGuardRunner - Not starting crash guard extension because it is disabled.To enable, please update the configuration enabled in CrashGuardConfig.yml.
+[main] 20 Nov 2017 19:55:00,547  INFO FlexibleX509TrustManager - Using default keystore for SSL certificate validation.
+[main] 20 Nov 2017 19:55:00,817  INFO HostIdProvider - Default Host Identifier Resolver using host name for unique host identifier [ip-172-31-37-105]
+[ConfigExecutor-0] 20 Nov 2017 19:55:01,372  INFO SecondStageFeaturesListener - Dynamic monitoring feature is disabled in configuration, hence machine agent sends all metrics irrespective of the monitoring mode requested
+[system-thread-0] 20 Nov 2017 19:55:01,417  INFO SecondStageSystem - Starting main system with features Features(features=[basic], reason=Features.Reason(message=, code=))
+[system-thread-0] 20 Nov 2017 19:55:01,634  INFO SystemAgent - ####################################################################################
+[system-thread-0] 20 Nov 2017 19:55:01,634  INFO SystemAgent - Agent Install Directory [/home/ubuntu/machine-agent/machine]
+[system-thread-0] 20 Nov 2017 19:55:01,634  INFO SystemAgent - Using Agent Version [Machine Agent v4.3.7.1 GA Build Date 2017-10-12 14:29:18]
+[system-thread-0] 20 Nov 2017 19:55:01,634  INFO SystemAgent - JVM Runtime: 
+	java.home=/home/ubuntu/machine-agent/machine/jre
+	java.vm.vendor=Oracle Corporation
+	java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+	java.runtime.version=1.8.0_111-b14
+	java.io.tmpdir=/tmp
+	user.language=en
+	user.country=US
+	user.variant=
+	Default locale=en_US
+[system-thread-0] 20 Nov 2017 19:55:01,634  INFO SystemAgent - OS Runtime: 
+	os.name=Linux
+	os.arch=amd64
+	os.version=4.4.0-1039-aws
+	user.name=ubuntu
+	user.home=/home/ubuntu
+	user.dir=/home/ubuntu/machine-agent/machine
+[system-thread-0] 20 Nov 2017 19:55:01,636  INFO SystemAgent - JVM Args : -Dlog4j.configuration=file:/home/ubuntu/machine-agent/machine/conf/logging/log4j.xml | 
+[system-thread-0] 20 Nov 2017 19:55:01,636  INFO SystemAgent - JVM Runtime Name: 7141@ip-172-31-37-105
+[system-thread-0] 20 Nov 2017 19:55:01,636  INFO SystemAgent - JVM PID: 7141
+[system-thread-0] 20 Nov 2017 19:55:01,636  INFO SystemAgent - Machine Agent is resolving bootstrap info....
+[system-thread-0] 20 Nov 2017 19:55:01,735  INFO SystemAgent - Orchestration is disabled - disabling virtualization resolvers by default.
+[system-thread-0] 20 Nov 2017 19:55:01,738  INFO SystemAgent - Full Agent Registration Info Resolver found system property [appdynamics.agent.create.agent.info.if.missing] for appdynamics.agent.create.agent.info.if.missing [false]
+[system-thread-0] 20 Nov 2017 19:55:01,748  INFO SystemAgent - Default Host Identifier Resolver using host name for unique host identifier [ip-172-31-37-105]
+[system-thread-0] 20 Nov 2017 19:55:01,750  INFO SystemAgent - Default IP Address Resolver found IP addresses [[fe80:0:0:0:891:9bff:fee2:ee62%eth0, 172.31.37.105]]
+[system-thread-0] 20 Nov 2017 19:55:01,760  INFO SystemAgent - Full Agent Registration Info Resolver using selfService [false]
+[system-thread-0] 20 Nov 2017 19:55:01,760  INFO SystemAgent - Full Agent Registration Info Resolver using application name [null]
+[system-thread-0] 20 Nov 2017 19:55:01,760  INFO SystemAgent - Full Agent Registration Info Resolver using tier name [null]
+[system-thread-0] 20 Nov 2017 19:55:01,760  INFO SystemAgent - Full Agent Registration Info Resolver using node name [null]
+[system-thread-0] 20 Nov 2017 19:55:01,763  INFO SystemAgent - XML Controller Info Resolver found controller host [ciscoprod50.saas.appdynamics.com]
+[system-thread-0] 20 Nov 2017 19:55:01,763  INFO SystemAgent - XML Controller Info Resolver found controller port [443]
+[system-thread-0] 20 Nov 2017 19:55:01,773  INFO SystemAgent - XML Agent Account Info Resolver using account name [ciscoprod50]
+[system-thread-0] 20 Nov 2017 19:55:01,773  INFO SystemAgent - XML Agent Account Info Resolver using account access key [dde1e591d2a5]
+[system-thread-0] 20 Nov 2017 19:55:01,776  INFO SystemAgent - Keystore file /home/ubuntu/machine-agent/machine/conf/cacerts.jks was not found
+[system-thread-0] 20 Nov 2017 19:55:01,791  INFO SystemAgent - Machine Agent resolved bootstrap info!
+[system-thread-0] 20 Nov 2017 19:55:01,791  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[system-thread-0] 20 Nov 2017 19:55:01,799  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[system-thread-0] 20 Nov 2017 19:55:01,802  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 20 Nov 2017 19:55:01,807  INFO DefaultLegacyAgentRegistrationStateManager - Registered machine with machine ID [Optional.of(3027)]
+[ConfigExecutor-0] 20 Nov 2017 19:55:01,807  INFO DefaultLegacyAgentRegistrationStateManager - Scheduling System-Agent start...
+[system-thread-0] 20 Nov 2017 19:55:01,812  INFO SimAgentRepetitiveLoggingModule - The turnover time for the SIM agent repetitive logger is 5 minutes
+[system-thread-0] 20 Nov 2017 19:55:01,812  INFO SimAgentRepetitiveLoggingModule - The cache size for the SIM agent repetitive logger is 1000
+[system-thread-0] 20 Nov 2017 19:55:01,815  INFO DefaultLegacyAgentRegistrationStateManager - Starting machine agent...
+[system-thread-0] 20 Nov 2017 19:55:01,815  INFO SystemAgent - Starting Machine Agent....
+[system-thread-0] 20 Nov 2017 19:55:01,816  INFO ControllerTimeSkewHandler - Skew Handler is : [enabled].
+[system-thread-0] 20 Nov 2017 19:55:01,893  INFO SystemAgent - Full certificate chain validation performed using default certificate file
+[system-thread-0] 20 Nov 2017 19:55:01,945  INFO ManagedMonitorDelegate - Started Agent Metric Generation Service
+[system-thread-0] 20 Nov 2017 19:55:01,951  INFO ManagedMonitorDelegate - Event Service is : [enabled].
+[system-thread-0] 20 Nov 2017 19:55:01,964  INFO ManagedMonitorDelegate - Metric Service is : [enabled].
+[system-thread-0] 20 Nov 2017 19:55:01,973  INFO ManagedMonitorDelegate - Started Agent Env Properties Service
+[system-thread-0] 20 Nov 2017 19:55:01,975  INFO ManagedMonitorDelegate - Scheduled Continuous Task Monitor with frequency [30000]ms
+[system-thread-0] 20 Nov 2017 19:55:01,981  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/JavaHardwareMonitor/monitor.xml
+[system-thread-0] 20 Nov 2017 19:55:01,991  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 20 Nov 2017 19:55:01,993  INFO MonitorConfigReader - Overriding enabled tag. new value = false
+[system-thread-0] 20 Nov 2017 19:55:02,014  INFO NodeMonitorManager - Initializing managed monitor [JavaHardwareMonitor]
+[system-thread-0] 20 Nov 2017 19:55:02,014  INFO ManagedMonitorDelegate - Not initializing managed monitor [SigarHardwareMonitor] - Disabled in configuration file.
+[system-thread-0] 20 Nov 2017 19:55:02,014  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/analytics-agent/monitor.xml
+[system-thread-0] 20 Nov 2017 19:55:02,016  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 20 Nov 2017 19:55:02,016  INFO NodeMonitorManager - Initializing managed monitor [analytics-agent]
+[system-thread-0] 20 Nov 2017 19:55:02,016  INFO ManagedMonitorDelegate - Not initializing managed monitor [AppDynamics Analytics Agent] - Disabled in configuration file.
+[system-thread-0] 20 Nov 2017 19:55:02,016  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/HardwareMonitor/monitor.xml
+[system-thread-0] 20 Nov 2017 19:55:02,018  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 20 Nov 2017 19:55:02,022  INFO NodeMonitorManager - Initializing managed monitor [HardwareMonitor]
+[system-thread-0] 20 Nov 2017 19:55:02,022  INFO ManagedMonitorDelegate - Not initializing managed monitor [HardwareMonitor] - Disabled in configuration file.
+[system-thread-0] 20 Nov 2017 19:55:02,022  INFO NodeMonitorManager - Directory [/home/ubuntu/machine-agent/machine/monitors/unmanaged] not found, continuing.
+[system-thread-0] 20 Nov 2017 19:55:02,022  INFO AgentMonitorManager - Initialized System Monitor Manager with directory [/home/ubuntu/machine-agent/machine/monitors]
+[system-thread-0] 20 Nov 2017 19:55:02,022  INFO SystemAgent - Set up agent monitor manager
+[system-thread-0] 20 Nov 2017 19:55:02,023  INFO SystemAgent - Orchestration is disabled - disabling one-way agent transport. The agent will not be able to execute workflow tasks.
+[system-thread-0] 20 Nov 2017 19:55:02,026  INFO SystemAgentConfigManager - Scheduling configuration refresh at an interval of 60 seconds
+[system-thread-0] 20 Nov 2017 19:55:02,026  INFO SystemAgentConfigManager - Configuration refresh task interval is 60 seconds
+[system-thread-0] 20 Nov 2017 19:55:02,026  INFO SystemAgent - Configuration manager successfully configured
+[system-thread-0] 20 Nov 2017 19:55:02,028  INFO RunbookHandler - Runbook Operation Execution is : [enabled].
+[system-thread-0] 20 Nov 2017 19:55:02,028  INFO SystemAgent - Started AppDynamics Machine Agent Successfully.
+[ExtensionStarter-AgentServer] 20 Nov 2017 19:55:31,928  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-AgentServer] 20 Nov 2017 19:55:31,928  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-AgentServer] 20 Nov 2017 19:55:31,928  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-ServerMonitoring] 20 Nov 2017 19:55:32,373  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-ServerMonitoring] 20 Nov 2017 19:55:32,373  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-ServerMonitoring] 20 Nov 2017 19:55:32,373  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 19:55:32,605  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 19:55:32,605  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 19:55:32,605  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 19:55:32,617  INFO DockerMonitoringModule - Initializing Executor Service for Docker Metric Collection, pool size:  3
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 19:55:32,618  INFO DockerMonitor - Not starting docker monitoring extension because it is disabled.
+[ExtensionStarter-CrashGuard] 20 Nov 2017 19:55:32,652  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-CrashGuard] 20 Nov 2017 19:55:32,654  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-CrashGuard] 20 Nov 2017 19:55:32,655  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 20 Nov 2017 19:55:32,689  INFO CrashGuardRunner - Not starting crash guard extension because it is disabled.To enable, please update the configuration enabled in CrashGuardConfig.yml.
+[Thread-1] 20 Nov 2017 19:58:04,154  INFO SecondStageSystem - Stopping main system with features Features(features=[basic], reason=Features.Reason(message=, code=)).
+[Thread-2] 20 Nov 2017 19:58:04,159  INFO SystemAgent - Stopping Machine Agent....
+[Thread-2] 20 Nov 2017 19:58:04,159  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 20 Nov 2017 19:58:04,159  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 20 Nov 2017 19:58:04,159  INFO SystemAgent - Shutting down agent monitor manager
+[Thread-2] 20 Nov 2017 19:58:04,160  INFO SystemAgent - Stopping Machine Agent....
+[Thread-2] 20 Nov 2017 19:58:04,160  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 20 Nov 2017 19:58:04,160  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 20 Nov 2017 19:58:04,160  INFO SystemAgent - Shutting down agent monitor manager
+[ExtensionStopper-AgentServer] 20 Nov 2017 19:58:04,160  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-AgentServer] 20 Nov 2017 19:58:04,160  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-AgentServer] 20 Nov 2017 19:58:04,160  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-AgentServer] 20 Nov 2017 19:58:04,160  INFO SystemAgent - Shutting down agent monitor manager
+[ExtensionStopper-AgentServer] 20 Nov 2017 19:58:04,160  INFO ManagedMonitorDelegate - shutdown metric generation service.
+[ExtensionStopper-AgentServer] 20 Nov 2017 19:58:04,160  INFO SystemAgent - Stopped agent monitor manager
+[ExtensionStopper-AgentServer] 20 Nov 2017 19:58:04,160  INFO SystemAgent - Shutting down scheduler
+[ExtensionStopper-AgentServer] 20 Nov 2017 19:58:04,160  INFO SystemAgent - Stopped scheduler
+[Thread-2] 20 Nov 2017 19:58:04,161  INFO ManagedMonitorDelegate - shutdown metric generation service.
+[Thread-2] 20 Nov 2017 19:58:04,161  INFO SystemAgent - Stopped agent monitor manager
+[Thread-2] 20 Nov 2017 19:58:04,161  INFO SystemAgent - Shutting down scheduler
+[Thread-2] 20 Nov 2017 19:58:04,161  INFO SystemAgent - Stopped scheduler
+[Thread-2] 20 Nov 2017 19:58:04,161  INFO SystemAgent - Shutting down monitor scheduler
+[Thread-2] 20 Nov 2017 19:58:04,161  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-AgentServer] 20 Nov 2017 19:58:04,161  INFO SystemAgent - Machine Agent Stopped!
+[Thread-2] 20 Nov 2017 19:58:04,159  INFO ManagedMonitorDelegate - shutdown metric generation service.
+[ExtensionStopper-ServerMonitoring] 20 Nov 2017 19:58:04,161  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-ServerMonitoring] 20 Nov 2017 19:58:04,161  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-ServerMonitoring] 20 Nov 2017 19:58:04,161  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-ServerMonitoring] 20 Nov 2017 19:58:04,161  INFO SystemAgent - Machine Agent Stopped!
+[Thread-2] 20 Nov 2017 19:58:04,161  INFO SystemAgent - Stopped agent monitor manager
+[Thread-2] 20 Nov 2017 19:58:04,161  INFO SystemAgent - Shutting down scheduler
+[Thread-2] 20 Nov 2017 19:58:04,161  INFO SystemAgent - Stopped scheduler
+[Thread-2] 20 Nov 2017 19:58:04,161  INFO SystemAgent - Shutting down monitor scheduler
+[ExtensionStopper-DockerMonitoring] 20 Nov 2017 19:58:04,161  INFO SystemAgent - Stopping Machine Agent....
+[Thread-2] 20 Nov 2017 19:58:04,161  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-DockerMonitoring] 20 Nov 2017 19:58:04,161  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-DockerMonitoring] 20 Nov 2017 19:58:04,161  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-DockerMonitoring] 20 Nov 2017 19:58:04,161  INFO SystemAgent - Machine Agent Stopped!
+[Thread-1] 20 Nov 2017 19:58:04,167  INFO SecondStageSystem - Stopping main system with features Features(features=[basic], reason=Features.Reason(message=, code=)).
+[ExtensionStopper-CrashGuard] 20 Nov 2017 19:58:04,169  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-CrashGuard] 20 Nov 2017 19:58:04,169  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-CrashGuard] 20 Nov 2017 19:58:04,169  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-CrashGuard] 20 Nov 2017 19:58:04,169  INFO SystemAgent - Machine Agent Stopped!
+[Thread-1] 20 Nov 2017 19:58:04,169  INFO ManagedScheduledThreadPool - Shutting down extensions thread pool
+[Thread-1] 20 Nov 2017 19:58:04,189  INFO SystemAgent - Stopping Machine Agent....
+[Thread-1] 20 Nov 2017 19:58:04,190  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 20 Nov 2017 19:58:04,190  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 20 Nov 2017 19:58:04,190  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-AgentServer] 20 Nov 2017 19:58:04,211  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-AgentServer] 20 Nov 2017 19:58:04,211  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-AgentServer] 20 Nov 2017 19:58:04,211  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-AgentServer] 20 Nov 2017 19:58:04,211  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-ServerMonitoring] 20 Nov 2017 19:58:04,212  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-ServerMonitoring] 20 Nov 2017 19:58:04,215  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-ServerMonitoring] 20 Nov 2017 19:58:04,215  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-ServerMonitoring] 20 Nov 2017 19:58:04,215  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-DockerMonitoring] 20 Nov 2017 19:58:04,215  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-DockerMonitoring] 20 Nov 2017 19:58:04,215  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-DockerMonitoring] 20 Nov 2017 19:58:04,215  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-DockerMonitoring] 20 Nov 2017 19:58:04,215  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-CrashGuard] 20 Nov 2017 19:58:04,215  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-CrashGuard] 20 Nov 2017 19:58:04,215  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-CrashGuard] 20 Nov 2017 19:58:04,215  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-CrashGuard] 20 Nov 2017 19:58:04,215  INFO SystemAgent - Machine Agent Stopped!
+[Thread-1] 20 Nov 2017 19:58:04,215  INFO ManagedScheduledThreadPool - Shutting down extensions thread pool
+[Thread-1] 20 Nov 2017 19:58:04,224  INFO SystemAgent - Stopping Machine Agent....
+[Thread-1] 20 Nov 2017 19:58:04,224  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 20 Nov 2017 19:58:04,224  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 20 Nov 2017 19:58:04,224  INFO SystemAgent - Machine Agent Stopped!
+[main] 20 Nov 2017 19:59:06,373  INFO FlexibleX509TrustManager - Using default keystore for SSL certificate validation.
+[main] 20 Nov 2017 19:59:06,843  INFO HostIdProvider - Default Host Identifier Resolver using host name for unique host identifier [ip-172-31-37-105]
+[ConfigExecutor-0] 20 Nov 2017 19:59:07,592  INFO SecondStageFeaturesListener - Dynamic monitoring feature is disabled in configuration, hence machine agent sends all metrics irrespective of the monitoring mode requested
+[system-thread-0] 20 Nov 2017 19:59:07,628  INFO SecondStageSystem - Starting main system with features Features(features=[basic], reason=Features.Reason(message=, code=))
+[system-thread-0] 20 Nov 2017 19:59:07,874  INFO SystemAgent - ####################################################################################
+[system-thread-0] 20 Nov 2017 19:59:07,874  INFO SystemAgent - Agent Install Directory [/home/ubuntu/machine-agent/machine]
+[system-thread-0] 20 Nov 2017 19:59:07,874  INFO SystemAgent - Using Agent Version [Machine Agent v4.3.7.1 GA Build Date 2017-10-12 14:29:18]
+[system-thread-0] 20 Nov 2017 19:59:07,874  INFO SystemAgent - JVM Runtime: 
+	java.home=/home/ubuntu/machine-agent/machine/jre
+	java.vm.vendor=Oracle Corporation
+	java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+	java.runtime.version=1.8.0_111-b14
+	java.io.tmpdir=/tmp
+	user.language=en
+	user.country=US
+	user.variant=
+	Default locale=en_US
+[system-thread-0] 20 Nov 2017 19:59:07,875  INFO SystemAgent - OS Runtime: 
+	os.name=Linux
+	os.arch=amd64
+	os.version=4.4.0-1039-aws
+	user.name=ubuntu
+	user.home=/home/ubuntu
+	user.dir=/home/ubuntu/machine-agent/machine
+[system-thread-0] 20 Nov 2017 19:59:07,885  INFO SystemAgent - JVM Args : -Dlog4j.configuration=file:/home/ubuntu/machine-agent/machine/conf/logging/log4j.xml | 
+[system-thread-0] 20 Nov 2017 19:59:07,885  INFO SystemAgent - JVM Runtime Name: 1652@ip-172-31-37-105
+[system-thread-0] 20 Nov 2017 19:59:07,885  INFO SystemAgent - JVM PID: 1652
+[system-thread-0] 20 Nov 2017 19:59:07,885  INFO SystemAgent - Machine Agent is resolving bootstrap info....
+[system-thread-0] 20 Nov 2017 19:59:08,009  INFO SystemAgent - Orchestration is disabled - disabling virtualization resolvers by default.
+[system-thread-0] 20 Nov 2017 19:59:08,012  INFO SystemAgent - Full Agent Registration Info Resolver found system property [appdynamics.agent.create.agent.info.if.missing] for appdynamics.agent.create.agent.info.if.missing [false]
+[system-thread-0] 20 Nov 2017 19:59:08,024  INFO SystemAgent - Default Host Identifier Resolver using host name for unique host identifier [ip-172-31-37-105]
+[system-thread-0] 20 Nov 2017 19:59:08,027  INFO SystemAgent - Default IP Address Resolver found IP addresses [[fe80:0:0:0:891:9bff:fee2:ee62%eth0, 172.31.37.105]]
+[system-thread-0] 20 Nov 2017 19:59:08,031  INFO SystemAgent - Full Agent Registration Info Resolver using selfService [false]
+[system-thread-0] 20 Nov 2017 19:59:08,031  INFO SystemAgent - Full Agent Registration Info Resolver using application name [null]
+[system-thread-0] 20 Nov 2017 19:59:08,031  INFO SystemAgent - Full Agent Registration Info Resolver using tier name [null]
+[system-thread-0] 20 Nov 2017 19:59:08,031  INFO SystemAgent - Full Agent Registration Info Resolver using node name [null]
+[system-thread-0] 20 Nov 2017 19:59:08,034  INFO SystemAgent - XML Controller Info Resolver found controller host [ciscoprod50.saas.appdynamics.com]
+[system-thread-0] 20 Nov 2017 19:59:08,034  INFO SystemAgent - XML Controller Info Resolver found controller port [443]
+[system-thread-0] 20 Nov 2017 19:59:08,037  INFO SystemAgent - XML Agent Account Info Resolver using account name [ciscoprod50]
+[system-thread-0] 20 Nov 2017 19:59:08,037  INFO SystemAgent - XML Agent Account Info Resolver using account access key [dde1e591d2a5]
+[system-thread-0] 20 Nov 2017 19:59:08,039  INFO SystemAgent - Keystore file /home/ubuntu/machine-agent/machine/conf/cacerts.jks was not found
+[system-thread-0] 20 Nov 2017 19:59:08,055  INFO SystemAgent - Machine Agent resolved bootstrap info!
+[system-thread-0] 20 Nov 2017 19:59:08,055  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[system-thread-0] 20 Nov 2017 19:59:08,064  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[system-thread-0] 20 Nov 2017 19:59:08,067  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 20 Nov 2017 19:59:08,069  INFO DefaultLegacyAgentRegistrationStateManager - Registered machine with machine ID [Optional.of(3027)]
+[ConfigExecutor-0] 20 Nov 2017 19:59:08,071  INFO DefaultLegacyAgentRegistrationStateManager - Scheduling System-Agent start...
+[system-thread-0] 20 Nov 2017 19:59:08,074  INFO SimAgentRepetitiveLoggingModule - The turnover time for the SIM agent repetitive logger is 5 minutes
+[system-thread-0] 20 Nov 2017 19:59:08,074  INFO SimAgentRepetitiveLoggingModule - The cache size for the SIM agent repetitive logger is 1000
+[system-thread-0] 20 Nov 2017 19:59:08,076  INFO DefaultLegacyAgentRegistrationStateManager - Starting machine agent...
+[system-thread-0] 20 Nov 2017 19:59:08,076  INFO SystemAgent - Starting Machine Agent....
+[system-thread-0] 20 Nov 2017 19:59:08,077  INFO ControllerTimeSkewHandler - Skew Handler is : [enabled].
+[system-thread-0] 20 Nov 2017 19:59:08,139  INFO SystemAgent - Full certificate chain validation performed using default certificate file
+[system-thread-0] 20 Nov 2017 19:59:08,229  INFO ManagedMonitorDelegate - Started Agent Metric Generation Service
+[system-thread-0] 20 Nov 2017 19:59:08,234  INFO ManagedMonitorDelegate - Event Service is : [enabled].
+[system-thread-0] 20 Nov 2017 19:59:08,245  INFO ManagedMonitorDelegate - Metric Service is : [enabled].
+[system-thread-0] 20 Nov 2017 19:59:08,254  INFO ManagedMonitorDelegate - Started Agent Env Properties Service
+[system-thread-0] 20 Nov 2017 19:59:08,256  INFO ManagedMonitorDelegate - Scheduled Continuous Task Monitor with frequency [30000]ms
+[system-thread-0] 20 Nov 2017 19:59:08,277  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/JavaHardwareMonitor/monitor.xml
+[system-thread-0] 20 Nov 2017 19:59:08,293  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 20 Nov 2017 19:59:08,295  INFO MonitorConfigReader - Overriding enabled tag. new value = false
+[system-thread-0] 20 Nov 2017 19:59:08,299  INFO NodeMonitorManager - Initializing managed monitor [JavaHardwareMonitor]
+[system-thread-0] 20 Nov 2017 19:59:08,299  INFO ManagedMonitorDelegate - Not initializing managed monitor [SigarHardwareMonitor] - Disabled in configuration file.
+[system-thread-0] 20 Nov 2017 19:59:08,299  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/analytics-agent/monitor.xml
+[system-thread-0] 20 Nov 2017 19:59:08,301  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 20 Nov 2017 19:59:08,301  INFO NodeMonitorManager - Initializing managed monitor [analytics-agent]
+[system-thread-0] 20 Nov 2017 19:59:08,301  INFO ManagedMonitorDelegate - Not initializing managed monitor [AppDynamics Analytics Agent] - Disabled in configuration file.
+[system-thread-0] 20 Nov 2017 19:59:08,302  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/HardwareMonitor/monitor.xml
+[system-thread-0] 20 Nov 2017 19:59:08,304  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 20 Nov 2017 19:59:08,305  INFO NodeMonitorManager - Initializing managed monitor [HardwareMonitor]
+[system-thread-0] 20 Nov 2017 19:59:08,305  INFO ManagedMonitorDelegate - Not initializing managed monitor [HardwareMonitor] - Disabled in configuration file.
+[system-thread-0] 20 Nov 2017 19:59:08,305  INFO NodeMonitorManager - Directory [/home/ubuntu/machine-agent/machine/monitors/unmanaged] not found, continuing.
+[system-thread-0] 20 Nov 2017 19:59:08,305  INFO AgentMonitorManager - Initialized System Monitor Manager with directory [/home/ubuntu/machine-agent/machine/monitors]
+[system-thread-0] 20 Nov 2017 19:59:08,305  INFO SystemAgent - Set up agent monitor manager
+[system-thread-0] 20 Nov 2017 19:59:08,306  INFO SystemAgent - Orchestration is disabled - disabling one-way agent transport. The agent will not be able to execute workflow tasks.
+[system-thread-0] 20 Nov 2017 19:59:08,310  INFO SystemAgentConfigManager - Scheduling configuration refresh at an interval of 60 seconds
+[system-thread-0] 20 Nov 2017 19:59:08,310  INFO SystemAgentConfigManager - Configuration refresh task interval is 60 seconds
+[system-thread-0] 20 Nov 2017 19:59:08,310  INFO SystemAgent - Configuration manager successfully configured
+[system-thread-0] 20 Nov 2017 19:59:08,312  INFO RunbookHandler - Runbook Operation Execution is : [enabled].
+[system-thread-0] 20 Nov 2017 19:59:08,312  INFO SystemAgent - Started AppDynamics Machine Agent Successfully.
+[ExtensionStarter-AgentServer] 20 Nov 2017 19:59:38,226  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-AgentServer] 20 Nov 2017 19:59:38,226  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-AgentServer] 20 Nov 2017 19:59:38,227  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-ServerMonitoring] 20 Nov 2017 19:59:38,689  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-ServerMonitoring] 20 Nov 2017 19:59:38,689  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-ServerMonitoring] 20 Nov 2017 19:59:38,689  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 19:59:38,945  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 19:59:38,945  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 19:59:38,945  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 19:59:38,955  INFO DockerMonitoringModule - Initializing Executor Service for Docker Metric Collection, pool size:  3
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 19:59:38,956  INFO DockerMonitor - Not starting docker monitoring extension because it is disabled.
+[ExtensionStarter-CrashGuard] 20 Nov 2017 19:59:38,987  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-CrashGuard] 20 Nov 2017 19:59:38,990  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-CrashGuard] 20 Nov 2017 19:59:38,990  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 20 Nov 2017 19:59:39,033  INFO CrashGuardRunner - Not starting crash guard extension because it is disabled.To enable, please update the configuration enabled in CrashGuardConfig.yml.
+[main] 20 Nov 2017 20:05:05,139  INFO FlexibleX509TrustManager - Using default keystore for SSL certificate validation.
+[main] 20 Nov 2017 20:05:05,382  INFO HostIdProvider - Default Host Identifier Resolver using host name for unique host identifier [ip-172-31-37-105]
+[ConfigExecutor-0] 20 Nov 2017 20:05:06,086  INFO SecondStageFeaturesListener - Dynamic monitoring feature is disabled in configuration, hence machine agent sends all metrics irrespective of the monitoring mode requested
+[system-thread-0] 20 Nov 2017 20:05:06,117  INFO SecondStageSystem - Starting main system with features Features(features=[basic], reason=Features.Reason(message=, code=))
+[system-thread-0] 20 Nov 2017 20:05:06,328  INFO SystemAgent - ####################################################################################
+[system-thread-0] 20 Nov 2017 20:05:06,328  INFO SystemAgent - Agent Install Directory [/home/ubuntu/machine-agent/machine]
+[system-thread-0] 20 Nov 2017 20:05:06,328  INFO SystemAgent - Using Agent Version [Machine Agent v4.3.7.1 GA Build Date 2017-10-12 14:29:18]
+[system-thread-0] 20 Nov 2017 20:05:06,328  INFO SystemAgent - JVM Runtime: 
+	java.home=/home/ubuntu/machine-agent/machine/jre
+	java.vm.vendor=Oracle Corporation
+	java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+	java.runtime.version=1.8.0_111-b14
+	java.io.tmpdir=/tmp
+	user.language=en
+	user.country=US
+	user.variant=
+	Default locale=en_US
+[system-thread-0] 20 Nov 2017 20:05:06,328  INFO SystemAgent - OS Runtime: 
+	os.name=Linux
+	os.arch=amd64
+	os.version=4.4.0-1039-aws
+	user.name=ubuntu
+	user.home=/home/ubuntu
+	user.dir=/home/ubuntu/machine-agent/machine
+[system-thread-0] 20 Nov 2017 20:05:06,330  INFO SystemAgent - JVM Args : -Dlog4j.configuration=file:/home/ubuntu/machine-agent/machine/conf/logging/log4j.xml | 
+[system-thread-0] 20 Nov 2017 20:05:06,330  INFO SystemAgent - JVM Runtime Name: 3477@ip-172-31-37-105
+[system-thread-0] 20 Nov 2017 20:05:06,330  INFO SystemAgent - JVM PID: 3477
+[system-thread-0] 20 Nov 2017 20:05:06,330  INFO SystemAgent - Machine Agent is resolving bootstrap info....
+[system-thread-0] 20 Nov 2017 20:05:06,427  INFO SystemAgent - Orchestration is disabled - disabling virtualization resolvers by default.
+[system-thread-0] 20 Nov 2017 20:05:06,430  INFO SystemAgent - Full Agent Registration Info Resolver found system property [appdynamics.agent.create.agent.info.if.missing] for appdynamics.agent.create.agent.info.if.missing [false]
+[system-thread-0] 20 Nov 2017 20:05:06,441  INFO SystemAgent - Default Host Identifier Resolver using host name for unique host identifier [ip-172-31-37-105]
+[system-thread-0] 20 Nov 2017 20:05:06,442  INFO SystemAgent - Default IP Address Resolver found IP addresses [[fe80:0:0:0:891:9bff:fee2:ee62%eth0, 172.31.37.105]]
+[system-thread-0] 20 Nov 2017 20:05:06,447  INFO SystemAgent - Full Agent Registration Info Resolver using selfService [false]
+[system-thread-0] 20 Nov 2017 20:05:06,447  INFO SystemAgent - Full Agent Registration Info Resolver using application name [null]
+[system-thread-0] 20 Nov 2017 20:05:06,447  INFO SystemAgent - Full Agent Registration Info Resolver using tier name [null]
+[system-thread-0] 20 Nov 2017 20:05:06,447  INFO SystemAgent - Full Agent Registration Info Resolver using node name [null]
+[system-thread-0] 20 Nov 2017 20:05:06,450  INFO SystemAgent - XML Controller Info Resolver found controller host [ciscoprod50.saas.appdynamics.com]
+[system-thread-0] 20 Nov 2017 20:05:06,450  INFO SystemAgent - XML Controller Info Resolver found controller port [443]
+[system-thread-0] 20 Nov 2017 20:05:06,460  INFO SystemAgent - XML Agent Account Info Resolver using account name [ciscoprod50]
+[system-thread-0] 20 Nov 2017 20:05:06,460  INFO SystemAgent - XML Agent Account Info Resolver using account access key [dde1e591d2a5]
+[system-thread-0] 20 Nov 2017 20:05:06,462  INFO SystemAgent - Keystore file /home/ubuntu/machine-agent/machine/conf/cacerts.jks was not found
+[system-thread-0] 20 Nov 2017 20:05:06,477  INFO SystemAgent - Machine Agent resolved bootstrap info!
+[system-thread-0] 20 Nov 2017 20:05:06,477  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[system-thread-0] 20 Nov 2017 20:05:06,485  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[system-thread-0] 20 Nov 2017 20:05:06,488  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 20 Nov 2017 20:05:06,493  INFO DefaultLegacyAgentRegistrationStateManager - Registered machine with machine ID [Optional.of(3027)]
+[ConfigExecutor-0] 20 Nov 2017 20:05:06,493  INFO DefaultLegacyAgentRegistrationStateManager - Scheduling System-Agent start...
+[system-thread-0] 20 Nov 2017 20:05:06,496  INFO SimAgentRepetitiveLoggingModule - The turnover time for the SIM agent repetitive logger is 5 minutes
+[system-thread-0] 20 Nov 2017 20:05:06,496  INFO SimAgentRepetitiveLoggingModule - The cache size for the SIM agent repetitive logger is 1000
+[system-thread-0] 20 Nov 2017 20:05:06,497  INFO DefaultLegacyAgentRegistrationStateManager - Starting machine agent...
+[system-thread-0] 20 Nov 2017 20:05:06,497  INFO SystemAgent - Starting Machine Agent....
+[system-thread-0] 20 Nov 2017 20:05:06,498  INFO ControllerTimeSkewHandler - Skew Handler is : [enabled].
+[system-thread-0] 20 Nov 2017 20:05:06,550  INFO SystemAgent - Full certificate chain validation performed using default certificate file
+[system-thread-0] 20 Nov 2017 20:05:06,593  INFO ManagedMonitorDelegate - Started Agent Metric Generation Service
+[system-thread-0] 20 Nov 2017 20:05:06,598  INFO ManagedMonitorDelegate - Event Service is : [enabled].
+[system-thread-0] 20 Nov 2017 20:05:06,609  INFO ManagedMonitorDelegate - Metric Service is : [enabled].
+[system-thread-0] 20 Nov 2017 20:05:06,618  INFO ManagedMonitorDelegate - Started Agent Env Properties Service
+[system-thread-0] 20 Nov 2017 20:05:06,628  INFO ManagedMonitorDelegate - Scheduled Continuous Task Monitor with frequency [30000]ms
+[system-thread-0] 20 Nov 2017 20:05:06,635  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/JavaHardwareMonitor/monitor.xml
+[system-thread-0] 20 Nov 2017 20:05:06,644  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 20 Nov 2017 20:05:06,645  INFO MonitorConfigReader - Overriding enabled tag. new value = false
+[system-thread-0] 20 Nov 2017 20:05:06,649  INFO NodeMonitorManager - Initializing managed monitor [JavaHardwareMonitor]
+[system-thread-0] 20 Nov 2017 20:05:06,649  INFO ManagedMonitorDelegate - Not initializing managed monitor [SigarHardwareMonitor] - Disabled in configuration file.
+[system-thread-0] 20 Nov 2017 20:05:06,649  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/analytics-agent/monitor.xml
+[system-thread-0] 20 Nov 2017 20:05:06,651  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 20 Nov 2017 20:05:06,651  INFO NodeMonitorManager - Initializing managed monitor [analytics-agent]
+[system-thread-0] 20 Nov 2017 20:05:06,651  INFO ManagedMonitorDelegate - Not initializing managed monitor [AppDynamics Analytics Agent] - Disabled in configuration file.
+[system-thread-0] 20 Nov 2017 20:05:06,651  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/machine-agent/machine/monitors/HardwareMonitor/monitor.xml
+[system-thread-0] 20 Nov 2017 20:05:06,653  INFO MonitorConfigReader - os name [linux] version [4.4.0-1039-aws]
+[system-thread-0] 20 Nov 2017 20:05:06,654  INFO NodeMonitorManager - Initializing managed monitor [HardwareMonitor]
+[system-thread-0] 20 Nov 2017 20:05:06,654  INFO ManagedMonitorDelegate - Not initializing managed monitor [HardwareMonitor] - Disabled in configuration file.
+[system-thread-0] 20 Nov 2017 20:05:06,654  INFO NodeMonitorManager - Directory [/home/ubuntu/machine-agent/machine/monitors/unmanaged] not found, continuing.
+[system-thread-0] 20 Nov 2017 20:05:06,654  INFO AgentMonitorManager - Initialized System Monitor Manager with directory [/home/ubuntu/machine-agent/machine/monitors]
+[system-thread-0] 20 Nov 2017 20:05:06,654  INFO SystemAgent - Set up agent monitor manager
+[system-thread-0] 20 Nov 2017 20:05:06,655  INFO SystemAgent - Orchestration is disabled - disabling one-way agent transport. The agent will not be able to execute workflow tasks.
+[system-thread-0] 20 Nov 2017 20:05:06,658  INFO SystemAgentConfigManager - Scheduling configuration refresh at an interval of 60 seconds
+[system-thread-0] 20 Nov 2017 20:05:06,658  INFO SystemAgentConfigManager - Configuration refresh task interval is 60 seconds
+[system-thread-0] 20 Nov 2017 20:05:06,658  INFO SystemAgent - Configuration manager successfully configured
+[system-thread-0] 20 Nov 2017 20:05:06,660  INFO RunbookHandler - Runbook Operation Execution is : [enabled].
+[system-thread-0] 20 Nov 2017 20:05:06,660  INFO SystemAgent - Started AppDynamics Machine Agent Successfully.
+[ExtensionStarter-AgentServer] 20 Nov 2017 20:05:36,643  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-AgentServer] 20 Nov 2017 20:05:36,643  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-AgentServer] 20 Nov 2017 20:05:36,643  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-ServerMonitoring] 20 Nov 2017 20:05:37,130  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-ServerMonitoring] 20 Nov 2017 20:05:37,130  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-ServerMonitoring] 20 Nov 2017 20:05:37,130  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 20:05:37,353  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 20:05:37,353  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 20:05:37,354  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 20:05:37,364  INFO DockerMonitoringModule - Initializing Executor Service for Docker Metric Collection, pool size:  3
+[ExtensionStarter-DockerMonitoring] 20 Nov 2017 20:05:37,365  INFO DockerMonitor - Not starting docker monitoring extension because it is disabled.
+[ExtensionStarter-CrashGuard] 20 Nov 2017 20:05:37,392  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-CrashGuard] 20 Nov 2017 20:05:37,395  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-CrashGuard] 20 Nov 2017 20:05:37,395  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 20 Nov 2017 20:05:37,430  INFO CrashGuardRunner - Not starting crash guard extension because it is disabled.To enable, please update the configuration enabled in CrashGuardConfig.yml.
+[AD Thread-Metric Reporter1] 21 Nov 2017 15:36:58,357  INFO SystemAgent - Full certificate chain validation performed using default certificate file
+[AD Thread-Metric Reporter0] 21 Nov 2017 17:37:56,771  INFO SystemAgent - Full certificate chain validation performed using default certificate file
+[Thread-2] 21 Nov 2017 18:13:43,130  INFO SystemAgent - Stopping Machine Agent....
+[Thread-2] 21 Nov 2017 18:13:43,130  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 21 Nov 2017 18:13:43,131  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 21 Nov 2017 18:13:43,131  INFO SystemAgent - Shutting down agent monitor manager
+[Thread-1] 21 Nov 2017 18:13:43,131  INFO SecondStageSystem - Stopping main system with features Features(features=[basic], reason=Features.Reason(message=, code=)).
+[Thread-2] 21 Nov 2017 18:13:43,132  INFO SystemAgent - Stopping Machine Agent....
+[Thread-2] 21 Nov 2017 18:13:43,132  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 21 Nov 2017 18:13:43,132  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 21 Nov 2017 18:13:43,132  INFO SystemAgent - Shutting down agent monitor manager
+[Thread-2] 21 Nov 2017 18:13:43,132  INFO ManagedMonitorDelegate - shutdown metric generation service.
+[Thread-2] 21 Nov 2017 18:13:43,132  INFO SystemAgent - Stopped agent monitor manager
+[Thread-2] 21 Nov 2017 18:13:43,132  INFO SystemAgent - Shutting down scheduler
+[Thread-2] 21 Nov 2017 18:13:43,132  INFO SystemAgent - Stopped scheduler
+[Thread-2] 21 Nov 2017 18:13:43,132  INFO SystemAgent - Shutting down monitor scheduler
+[Thread-2] 21 Nov 2017 18:13:43,132  INFO SystemAgent - Machine Agent Stopped!
+[Thread-1] 21 Nov 2017 18:13:43,133  INFO SecondStageSystem - Stopping main system with features Features(features=[basic], reason=Features.Reason(message=, code=)).
+[Thread-2] 21 Nov 2017 18:13:43,131  INFO ManagedMonitorDelegate - shutdown metric generation service.
+[Thread-2] 21 Nov 2017 18:13:43,147  INFO SystemAgent - Stopped agent monitor manager
+[Thread-2] 21 Nov 2017 18:13:43,147  INFO SystemAgent - Shutting down scheduler
+[Thread-2] 21 Nov 2017 18:13:43,147  INFO SystemAgent - Stopped scheduler
+[Thread-2] 21 Nov 2017 18:13:43,147  INFO SystemAgent - Shutting down monitor scheduler
+[Thread-2] 21 Nov 2017 18:13:43,147  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-AgentServer] 21 Nov 2017 18:13:43,154  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-AgentServer] 21 Nov 2017 18:13:43,154  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-AgentServer] 21 Nov 2017 18:13:43,154  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-AgentServer] 21 Nov 2017 18:13:43,154  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-AgentServer] 21 Nov 2017 18:13:43,155  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-AgentServer] 21 Nov 2017 18:13:43,155  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-AgentServer] 21 Nov 2017 18:13:43,155  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-AgentServer] 21 Nov 2017 18:13:43,155  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-ServerMonitoring] 21 Nov 2017 18:13:43,159  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-ServerMonitoring] 21 Nov 2017 18:13:43,159  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-ServerMonitoring] 21 Nov 2017 18:13:43,159  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-ServerMonitoring] 21 Nov 2017 18:13:43,159  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-ServerMonitoring] 21 Nov 2017 18:13:43,159  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-ServerMonitoring] 21 Nov 2017 18:13:43,159  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-ServerMonitoring] 21 Nov 2017 18:13:43,159  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-ServerMonitoring] 21 Nov 2017 18:13:43,159  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-DockerMonitoring] 21 Nov 2017 18:13:43,167  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-DockerMonitoring] 21 Nov 2017 18:13:43,167  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-DockerMonitoring] 21 Nov 2017 18:13:43,167  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-DockerMonitoring] 21 Nov 2017 18:13:43,167  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-CrashGuard] 21 Nov 2017 18:13:43,173  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-CrashGuard] 21 Nov 2017 18:13:43,173  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-CrashGuard] 21 Nov 2017 18:13:43,173  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-CrashGuard] 21 Nov 2017 18:13:43,173  INFO SystemAgent - Machine Agent Stopped!
+[Thread-1] 21 Nov 2017 18:13:43,173  INFO ManagedScheduledThreadPool - Shutting down extensions thread pool
+[Thread-1] 21 Nov 2017 18:13:43,178  INFO SystemAgent - Stopping Machine Agent....
+[Thread-1] 21 Nov 2017 18:13:43,178  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 21 Nov 2017 18:13:43,178  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 21 Nov 2017 18:13:43,178  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-DockerMonitoring] 21 Nov 2017 18:13:43,178  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-DockerMonitoring] 21 Nov 2017 18:13:43,178  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-DockerMonitoring] 21 Nov 2017 18:13:43,178  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-DockerMonitoring] 21 Nov 2017 18:13:43,178  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-CrashGuard] 21 Nov 2017 18:13:43,179  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-CrashGuard] 21 Nov 2017 18:13:43,179  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-CrashGuard] 21 Nov 2017 18:13:43,179  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-CrashGuard] 21 Nov 2017 18:13:43,179  INFO SystemAgent - Machine Agent Stopped!
+[Thread-1] 21 Nov 2017 18:13:43,179  INFO ManagedScheduledThreadPool - Shutting down extensions thread pool
+[Thread-1] 21 Nov 2017 18:13:43,180  INFO SystemAgent - Stopping Machine Agent....
+[Thread-1] 21 Nov 2017 18:13:43,180  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 21 Nov 2017 18:13:43,180  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 21 Nov 2017 18:13:43,181  INFO SystemAgent - Machine Agent Stopped!
+[main] 22 Nov 2017 17:25:12,360  INFO FlexibleX509TrustManager - Using default keystore for SSL certificate validation.
+[main] 22 Nov 2017 17:25:12,651  INFO HostIdProvider - Default Host Identifier Resolver using host name for unique host identifier [ip-172-31-37-105]
+[ConfigExecutor-0] 22 Nov 2017 17:25:13,573  INFO SecondStageFeaturesListener - Dynamic monitoring feature is disabled in configuration, hence machine agent sends all metrics irrespective of the monitoring mode requested
+[system-thread-0] 22 Nov 2017 17:25:13,621  INFO SecondStageSystem - Starting main system with features Features(features=[basic], reason=Features.Reason(message=, code=))
+[system-thread-0] 22 Nov 2017 17:25:13,860  INFO SystemAgent - ####################################################################################
+[system-thread-0] 22 Nov 2017 17:25:13,860  INFO SystemAgent - Agent Install Directory [/home/ubuntu/non-docker/machine-agent/machine]
+[system-thread-0] 22 Nov 2017 17:25:13,860  INFO SystemAgent - Using Agent Version [Machine Agent v4.3.7.1 GA Build Date 2017-10-12 14:29:18]
+[system-thread-0] 22 Nov 2017 17:25:13,860  INFO SystemAgent - JVM Runtime: 
+	java.home=/home/ubuntu/non-docker/machine-agent/machine/jre
+	java.vm.vendor=Oracle Corporation
+	java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+	java.runtime.version=1.8.0_111-b14
+	java.io.tmpdir=/tmp
+	user.language=en
+	user.country=US
+	user.variant=
+	Default locale=en_US
+[system-thread-0] 22 Nov 2017 17:25:13,860  INFO SystemAgent - OS Runtime: 
+	os.name=Linux
+	os.arch=amd64
+	os.version=4.4.0-1041-aws
+	user.name=ubuntu
+	user.home=/home/ubuntu
+	user.dir=/home/ubuntu/non-docker/machine-agent/machine
+[system-thread-0] 22 Nov 2017 17:25:13,869  INFO SystemAgent - JVM Args : -Dlog4j.configuration=file:/home/ubuntu/non-docker/machine-agent/machine/conf/logging/log4j.xml | 
+[system-thread-0] 22 Nov 2017 17:25:13,869  INFO SystemAgent - JVM Runtime Name: 2792@ip-172-31-37-105
+[system-thread-0] 22 Nov 2017 17:25:13,869  INFO SystemAgent - JVM PID: 2792
+[system-thread-0] 22 Nov 2017 17:25:13,869  INFO SystemAgent - Machine Agent is resolving bootstrap info....
+[system-thread-0] 22 Nov 2017 17:25:13,989  INFO SystemAgent - Orchestration is disabled - disabling virtualization resolvers by default.
+[system-thread-0] 22 Nov 2017 17:25:13,992  INFO SystemAgent - Full Agent Registration Info Resolver found system property [appdynamics.agent.create.agent.info.if.missing] for appdynamics.agent.create.agent.info.if.missing [false]
+[system-thread-0] 22 Nov 2017 17:25:14,004  INFO SystemAgent - Default Host Identifier Resolver using host name for unique host identifier [ip-172-31-37-105]
+[system-thread-0] 22 Nov 2017 17:25:14,006  INFO SystemAgent - Default IP Address Resolver found IP addresses [[172.17.0.1, fe80:0:0:0:891:9bff:fee2:ee62%eth0, 172.31.37.105]]
+[system-thread-0] 22 Nov 2017 17:25:14,015  INFO SystemAgent - Full Agent Registration Info Resolver using selfService [false]
+[system-thread-0] 22 Nov 2017 17:25:14,015  INFO SystemAgent - Full Agent Registration Info Resolver using application name [null]
+[system-thread-0] 22 Nov 2017 17:25:14,015  INFO SystemAgent - Full Agent Registration Info Resolver using tier name [null]
+[system-thread-0] 22 Nov 2017 17:25:14,015  INFO SystemAgent - Full Agent Registration Info Resolver using node name [null]
+[system-thread-0] 22 Nov 2017 17:25:14,021  INFO SystemAgent - XML Controller Info Resolver found controller host [ciscoprod50.saas.appdynamics.com]
+[system-thread-0] 22 Nov 2017 17:25:14,021  INFO SystemAgent - XML Controller Info Resolver found controller port [443]
+[system-thread-0] 22 Nov 2017 17:25:14,024  INFO SystemAgent - XML Agent Account Info Resolver using account name [ciscoprod50]
+[system-thread-0] 22 Nov 2017 17:25:14,024  INFO SystemAgent - XML Agent Account Info Resolver using account access key [dde1e591d2a5]
+[system-thread-0] 22 Nov 2017 17:25:14,028  INFO SystemAgent - Keystore file /home/ubuntu/non-docker/machine-agent/machine/conf/cacerts.jks was not found
+[system-thread-0] 22 Nov 2017 17:25:14,047  INFO SystemAgent - Machine Agent resolved bootstrap info!
+[system-thread-0] 22 Nov 2017 17:25:14,047  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[system-thread-0] 22 Nov 2017 17:25:14,056  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[system-thread-0] 22 Nov 2017 17:25:14,060  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 22 Nov 2017 17:25:14,064  INFO DefaultLegacyAgentRegistrationStateManager - Registered machine with machine ID [Optional.of(3027)]
+[ConfigExecutor-0] 22 Nov 2017 17:25:14,065  INFO DefaultLegacyAgentRegistrationStateManager - Scheduling System-Agent start...
+[system-thread-0] 22 Nov 2017 17:25:14,071  INFO SimAgentRepetitiveLoggingModule - The turnover time for the SIM agent repetitive logger is 5 minutes
+[system-thread-0] 22 Nov 2017 17:25:14,071  INFO SimAgentRepetitiveLoggingModule - The cache size for the SIM agent repetitive logger is 1000
+[system-thread-0] 22 Nov 2017 17:25:14,072  INFO DefaultLegacyAgentRegistrationStateManager - Starting machine agent...
+[system-thread-0] 22 Nov 2017 17:25:14,072  INFO SystemAgent - Starting Machine Agent....
+[system-thread-0] 22 Nov 2017 17:25:14,073  INFO ControllerTimeSkewHandler - Skew Handler is : [enabled].
+[system-thread-0] 22 Nov 2017 17:25:14,133  INFO SystemAgent - Full certificate chain validation performed using default certificate file
+[system-thread-0] 22 Nov 2017 17:25:14,227  INFO ManagedMonitorDelegate - Started Agent Metric Generation Service
+[system-thread-0] 22 Nov 2017 17:25:14,232  INFO ManagedMonitorDelegate - Event Service is : [enabled].
+[system-thread-0] 22 Nov 2017 17:25:14,243  INFO ManagedMonitorDelegate - Metric Service is : [enabled].
+[system-thread-0] 22 Nov 2017 17:25:14,253  INFO ManagedMonitorDelegate - Started Agent Env Properties Service
+[system-thread-0] 22 Nov 2017 17:25:14,254  INFO ManagedMonitorDelegate - Scheduled Continuous Task Monitor with frequency [30000]ms
+[system-thread-0] 22 Nov 2017 17:25:14,263  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/non-docker/machine-agent/machine/monitors/JavaHardwareMonitor/monitor.xml
+[system-thread-0] 22 Nov 2017 17:25:14,274  INFO MonitorConfigReader - os name [linux] version [4.4.0-1041-aws]
+[system-thread-0] 22 Nov 2017 17:25:14,276  INFO MonitorConfigReader - Overriding enabled tag. new value = false
+[system-thread-0] 22 Nov 2017 17:25:14,280  INFO NodeMonitorManager - Initializing managed monitor [JavaHardwareMonitor]
+[system-thread-0] 22 Nov 2017 17:25:14,280  INFO ManagedMonitorDelegate - Not initializing managed monitor [SigarHardwareMonitor] - Disabled in configuration file.
+[system-thread-0] 22 Nov 2017 17:25:14,280  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/non-docker/machine-agent/machine/monitors/analytics-agent/monitor.xml
+[system-thread-0] 22 Nov 2017 17:25:14,282  INFO MonitorConfigReader - os name [linux] version [4.4.0-1041-aws]
+[system-thread-0] 22 Nov 2017 17:25:14,282  INFO NodeMonitorManager - Initializing managed monitor [analytics-agent]
+[system-thread-0] 22 Nov 2017 17:25:14,282  INFO ManagedMonitorDelegate - Not initializing managed monitor [AppDynamics Analytics Agent] - Disabled in configuration file.
+[system-thread-0] 22 Nov 2017 17:25:14,283  INFO MonitorConfigReader - Reading monitor config file:/home/ubuntu/non-docker/machine-agent/machine/monitors/HardwareMonitor/monitor.xml
+[system-thread-0] 22 Nov 2017 17:25:14,285  INFO MonitorConfigReader - os name [linux] version [4.4.0-1041-aws]
+[system-thread-0] 22 Nov 2017 17:25:14,286  INFO NodeMonitorManager - Initializing managed monitor [HardwareMonitor]
+[system-thread-0] 22 Nov 2017 17:25:14,286  INFO ManagedMonitorDelegate - Not initializing managed monitor [HardwareMonitor] - Disabled in configuration file.
+[system-thread-0] 22 Nov 2017 17:25:14,286  INFO NodeMonitorManager - Directory [/home/ubuntu/non-docker/machine-agent/machine/monitors/unmanaged] not found, continuing.
+[system-thread-0] 22 Nov 2017 17:25:14,286  INFO AgentMonitorManager - Initialized System Monitor Manager with directory [/home/ubuntu/non-docker/machine-agent/machine/monitors]
+[system-thread-0] 22 Nov 2017 17:25:14,286  INFO SystemAgent - Set up agent monitor manager
+[system-thread-0] 22 Nov 2017 17:25:14,287  INFO SystemAgent - Orchestration is disabled - disabling one-way agent transport. The agent will not be able to execute workflow tasks.
+[system-thread-0] 22 Nov 2017 17:25:14,291  INFO SystemAgentConfigManager - Scheduling configuration refresh at an interval of 60 seconds
+[system-thread-0] 22 Nov 2017 17:25:14,291  INFO SystemAgentConfigManager - Configuration refresh task interval is 60 seconds
+[system-thread-0] 22 Nov 2017 17:25:14,292  INFO SystemAgent - Configuration manager successfully configured
+[system-thread-0] 22 Nov 2017 17:25:14,293  INFO RunbookHandler - Runbook Operation Execution is : [enabled].
+[system-thread-0] 22 Nov 2017 17:25:14,293  INFO SystemAgent - Started AppDynamics Machine Agent Successfully.
+[ExtensionStarter-AgentServer] 22 Nov 2017 17:25:44,246  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-AgentServer] 22 Nov 2017 17:25:44,247  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-AgentServer] 22 Nov 2017 17:25:44,247  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-ServerMonitoring] 22 Nov 2017 17:25:44,841  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-ServerMonitoring] 22 Nov 2017 17:25:44,841  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-ServerMonitoring] 22 Nov 2017 17:25:44,841  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-DockerMonitoring] 22 Nov 2017 17:25:45,090  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-DockerMonitoring] 22 Nov 2017 17:25:45,090  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-DockerMonitoring] 22 Nov 2017 17:25:45,090  INFO SystemAgent - Started Agent Schedulers
+[ExtensionStarter-DockerMonitoring] 22 Nov 2017 17:25:45,098  INFO DockerMonitoringModule - Initializing Executor Service for Docker Metric Collection, pool size:  3
+[ExtensionStarter-DockerMonitoring] 22 Nov 2017 17:25:45,099  INFO DockerMonitor - Not starting docker monitoring extension because it is disabled.
+[ExtensionStarter-CrashGuard] 22 Nov 2017 17:25:45,128  INFO SystemAgent - Creating machine agent scheduler, pool size: 2
+[ExtensionStarter-CrashGuard] 22 Nov 2017 17:25:45,129  INFO SystemAgent - Creating machine agent monitor scheduler, pool size: 4
+[ExtensionStarter-CrashGuard] 22 Nov 2017 17:25:45,129  INFO SystemAgent - Started Agent Schedulers
+[ConfigExecutor-0] 22 Nov 2017 17:25:45,168  INFO CrashGuardRunner - Not starting crash guard extension because it is disabled.To enable, please update the configuration enabled in CrashGuardConfig.yml.
+[Thread-1] 22 Nov 2017 17:26:33,368  INFO SecondStageSystem - Stopping main system with features Features(features=[basic], reason=Features.Reason(message=, code=)).
+[Thread-2] 22 Nov 2017 17:26:33,368  INFO SystemAgent - Stopping Machine Agent....
+[Thread-2] 22 Nov 2017 17:26:33,368  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 22 Nov 2017 17:26:33,368  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-2] 22 Nov 2017 17:26:33,368  INFO SystemAgent - Shutting down agent monitor manager
+[Thread-2] 22 Nov 2017 17:26:33,368  INFO ManagedMonitorDelegate - shutdown metric generation service.
+[Thread-2] 22 Nov 2017 17:26:33,371  INFO SystemAgent - Stopped agent monitor manager
+[Thread-2] 22 Nov 2017 17:26:33,371  INFO SystemAgent - Shutting down scheduler
+[Thread-2] 22 Nov 2017 17:26:33,371  INFO SystemAgent - Stopped scheduler
+[Thread-2] 22 Nov 2017 17:26:33,371  INFO SystemAgent - Shutting down monitor scheduler
+[Thread-2] 22 Nov 2017 17:26:33,371  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-AgentServer] 22 Nov 2017 17:26:33,373  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-AgentServer] 22 Nov 2017 17:26:33,373  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-AgentServer] 22 Nov 2017 17:26:33,373  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-AgentServer] 22 Nov 2017 17:26:33,373  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-ServerMonitoring] 22 Nov 2017 17:26:33,374  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-ServerMonitoring] 22 Nov 2017 17:26:33,374  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-ServerMonitoring] 22 Nov 2017 17:26:33,374  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-ServerMonitoring] 22 Nov 2017 17:26:33,374  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-DockerMonitoring] 22 Nov 2017 17:26:33,374  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-DockerMonitoring] 22 Nov 2017 17:26:33,374  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-DockerMonitoring] 22 Nov 2017 17:26:33,374  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-DockerMonitoring] 22 Nov 2017 17:26:33,374  INFO SystemAgent - Machine Agent Stopped!
+[ExtensionStopper-CrashGuard] 22 Nov 2017 17:26:33,374  INFO SystemAgent - Stopping Machine Agent....
+[ExtensionStopper-CrashGuard] 22 Nov 2017 17:26:33,374  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-CrashGuard] 22 Nov 2017 17:26:33,374  INFO SystemAgent - Shutting down agent scheduler manager
+[ExtensionStopper-CrashGuard] 22 Nov 2017 17:26:33,374  INFO SystemAgent - Machine Agent Stopped!
+[Thread-1] 22 Nov 2017 17:26:33,374  INFO ManagedScheduledThreadPool - Shutting down extensions thread pool
+[Thread-1] 22 Nov 2017 17:26:33,390  INFO SystemAgent - Stopping Machine Agent....
+[Thread-1] 22 Nov 2017 17:26:33,390  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 22 Nov 2017 17:26:33,390  INFO SystemAgent - Shutting down agent scheduler manager
+[Thread-1] 22 Nov 2017 17:26:33,390  INFO SystemAgent - Machine Agent Stopped!
