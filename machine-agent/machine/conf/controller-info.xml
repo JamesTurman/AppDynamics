@@ -11,7 +11,7 @@
     myhost.abc.com). This is the same host that you use to access the AppDynamics browser-based User interface. This can
     be overridden with the environment variable 'CONTROLLER_HOST_NAME' or the system property
     '-Dappdynamics.controller.hostName' -->
-    <controller-host>ciscoprod50.saas.appdynamics.com</controller-host>
+    <controller-host></controller-host>
 
     <!-- This is the http(s) port of the AppDynamics Controller. If 'controller-ssl-enabled' (below) is set to true, you
     must specify the HTTPS port of the Controller; otherwise, specify the HTTP port. The default values are 8090 for
@@ -47,13 +47,13 @@
     <!-- This key is generated at installation time and can be found by viewing the license information in the
     controller settings. This can be overridden with the environment variable 'APPDYNAMICS_AGENT_ACCOUNT_ACCESS_KEY' or
     the system property '-Dappdynamics.agent.accountAccessKey' -->
-    <account-access-key>dde1e591d2a5</account-access-key>
+    <account-access-key></account-access-key>
 
     <!-- If the AppDynamics Controller is running in multi-tenant mode or you are using the AppDynamics SaaS Controller,
     you must specify the account name for this agent to authenticate with the controller. If you are running in
     single-tenant mode (the default) there is no need to configure this value. This can be overridden with the
     environment variable 'APPDYNAMICS_AGENT_ACCOUNT_NAME' or the system property '-Dappdynamics.agent.accountName' -->
-    <account-name>ciscoprod50</account-name>
+    <account-name></account-name>
 
     <!-- If this agent is licensed for Server Monitoring, set this flag to 'true' to enable Server Monitoring expanded
     metrics. This can be overridden with the environment variable 'APPDYNAMICS_SIM_ENABLED' or the system property
