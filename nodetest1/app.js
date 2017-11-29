@@ -1,9 +1,9 @@
 require("appdynamics").profile({
-  controllerHostName: 'ciscoprod50.saas.appdynamics.com',
+  controllerHostName: 'hostName',
   controllerPort: 443,
   controllerSslEnabled: true,  // Set to true if controllerPort is SSL
-  accountName: 'ciscoprod50',
-  accountAccessKey: 'dde1e591d2a5',
+  accountName: 'accountName',
+  accountAccessKey: 'accessKey',
   applicationName: 'banking-api',
   tierName: 'bank',
   nodeName: 'bank-node-a'
